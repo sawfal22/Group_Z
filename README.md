@@ -6,7 +6,7 @@
 
 | Role | Name |
 |---|---|
-| Product Owner | Ali Alhosseini |
+| Product Owner | Deval |
 | Scrum Master | |
 | Developer | |
 | Developer | |
