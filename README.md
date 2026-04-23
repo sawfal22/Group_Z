@@ -10,7 +10,7 @@
 | Scrum Master |Vinay kumar Komaraboina |
 | Developer |Deepthi sudha Vedam |
 | Developer |Rakshitha Boddu |
-| Developer | |
+| Developer |Jhanhavi Veerabhadraswamy |
 
 ## Project Overview
 
