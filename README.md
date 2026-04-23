@@ -6,7 +6,7 @@
 
 | Role | Name |
 |---|---|
-| Product Owner | Sainath reddy Madire |
+| Product Owner | Sainath Reddy Madire |
 | Scrum Master |Vinay kumar Komaraboina |
 | Developer |Deepthi sudha Vedam |
 | Developer |Rakshitha Boddu |
