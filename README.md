@@ -10,7 +10,7 @@
 | Scrum Master | Sameen |
 | Developer | |
 | Developer | |
-| Developer | |
+| Developer | Shahid |
 
 ## Project Overview
 
