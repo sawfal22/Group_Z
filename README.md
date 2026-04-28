@@ -6,7 +6,7 @@
 
 | Role | Name |
 |---|---|
-| Product Owner | Ali Alhosseini |
+| Product Owner | Safal Karki |
 | Scrum Master | Sameen |
 | Developer |Saksham |
 | Developer | Jagadish |
