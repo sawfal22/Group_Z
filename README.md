@@ -9,7 +9,7 @@
 | Product Owner | Ali Alhosseini |
 | Scrum Master | Sameen |
 | Developer |Saksham |
-| Developer | |
+| Developer | Jagadish |
 | Developer | Shahid |
 
 ## Project Overview
