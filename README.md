@@ -7,7 +7,7 @@
 | Role | Name |
 |---|---|
 | Product Owner | Ali Alhosseini |
-| Scrum Master | |
+| Scrum Master | Sameen |
 | Developer | |
 | Developer | |
 | Developer | |
