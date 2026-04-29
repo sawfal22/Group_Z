@@ -34,3 +34,10 @@ TEST
 
 **Blockers / Questions:**
 - Not sure how to link CSS file correctly — will ask next session
+
+# Tuesday 28-04-2026
+## Saksham
+- Set up the project folder structure by creating a new repository and imported a git structure
+- Helped a new member named sahid to setup the github and ssh key
+- Created a new branch and pushed to the main branch
+- Used 'git pull origin main' command to get all the new updates and changed made to the main github repo
