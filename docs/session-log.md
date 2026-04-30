@@ -1,12 +1,11 @@
 
 # Tuesday 28-04-2025
-## Alice
+## Jagadish
 **What I worked on:**
-- Set up the project folder structure
-- Created the initial `index.html` file
-- Helped Bob debug his Git push error
+- Set up the project folder structure by cloning the git structure from Dr. Ali Alhosseini,s git and  created a new repository session-log.md. 
+- Added my name in README.md file as Developer. 
+- Used 'git pull origin main' command to get all the new updates and changed made to the main github repo
 
-TEST
 
 **What I learned:**
 - How `git switch -c` creates and moves to a branch in one step
@@ -25,7 +24,7 @@ TEST
 - Used 'git pull origin main' command to get all the new updates and changes made to the main GitHub repo
 - Created a new branch, 
 
-TEST
+
 
 **What I learned:**
 - How `git switch -c` creates and moves to a branch in one step
