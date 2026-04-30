@@ -1,12 +1,29 @@
 
-# Tuesday 28-04-2025
-## Alice
+# Tuesday 28-04-2026
+## Safal
 **What I worked on:**
-- Set up the project folder structure
-- Created the initial `index.html` file
-- Helped Bob debug his Git push error
+- created a project folder structure by developing a new repository and imported the git structure template from Dr. Ali Alhosseini's git repository 
+- Added my name 'Safal' in the README.md file as Product Owner
+- Discussed with the team members regarding their respective role. 
+- New team member added and told him the product idea and his development role. H
+- Implemented 'git pull origin main' command to fetch all the new updates and changes made to the main GitHub repo
+- Created a new branch for the repository 
 
-TEST
+**What I learned:**
+- Working on the command `git switch -c` for how it works and shifts to a branch in one step
+- brief summarization that we can't push to a protected branch directly
+
+**Blockers / Questions:**
+- Not sure how to link CSS file correctly — will ask next session
+
+
+# Tuesday 28-04-2026
+## Jagadish
+**What I worked on:**
+- Set up the project folder structure by cloning the git structure from Dr. Ali Alhosseini,s git and  created a new repository session-log.md. 
+- Added my name in README.md file as Developer. 
+- Used 'git pull origin main' command to get all the new updates and changed made to the main github repo
+
 
 **What I learned:**
 - How `git switch -c` creates and moves to a branch in one step
@@ -23,13 +40,14 @@ TEST
 - Helped other team members set up their new git folder so that all of us are on the same page
 - Helped Shahid setup git on his laptop and gave a brief explanation about our product idea
 - Used 'git pull origin main' command to get all the new updates and changes made to the main GitHub repo
-- Created a new branch, 
+- Created a new branch, added and commited the changes, pushed the changes to the new branch and made the pull request.
+- Accepted the pull request from saksham and merged it into main branch
 
-TEST
+
 
 **What I learned:**
-- How `git switch -c` creates and moves to a branch in one step
-- That you can't push to a protected branch directly
+- How `git switch -c` creates new branch we go into the new branch
+- You cannot push to the main branch directly
 
 **Blockers / Questions:**
 - Not sure how to link CSS file correctly — will ask next session
@@ -50,3 +68,4 @@ TEST
 - to create a new branch and how does the branching works
 - to push and pull from the main branch and make the changes 
 - to accept the pull request from a friend and merged it into main branch 
+- to accept the pull request from a friend and merged it into main branch

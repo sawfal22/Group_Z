@@ -33,3 +33,4 @@ TEST
 - to create a new branch and how does the branching works
 - to push and pull from the main branch and make the changes 
 - to accept the pull request from a friend and merged it into main branch 
+- Also have some confusions with our project topic - will need help with this
