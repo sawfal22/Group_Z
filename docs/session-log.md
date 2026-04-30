@@ -54,6 +54,9 @@
 
 # Tuesday 28-04-2026
 ## Saksham
+
+**what I worked on:**
+
 - Set up the project folder structure by creating a new repository and imported a git structure
 - Helped a new member named sahid to setup the github and ssh key
 - Created a new branch and pushed to the main branch
@@ -64,4 +67,5 @@
 
 - to create a new branch and how does the branching works
 - to push and pull from the main branch and make the changes 
+- to accept the pull request from a friend and merged it into main branch 
 - to accept the pull request from a friend and merged it into main branch
