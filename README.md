@@ -1,6 +1,6 @@
-# Project Name
+# International Student Assistant
 
-> One-sentence description of what this project does and who it is for.
+> A web app that helps new students navigate essential steps for arriving in Germany.
 
 ## Team
 
@@ -14,7 +14,7 @@
 
 ## Project Overview
 
-_Brief description of the problem you are solving, your target users, and the core value your product delivers._
+_The International Student Assistant (Germany) is a web-based platform designed to help international students navigate essential steps when studying and living in Germany. It provides a centralized system where users can explore universities and courses, understand accommodation options and average rents, and follow step-by-step guides for important administrative processes such as visa extensions, city registration (Anmeldung), bank account setup, and SIM card activation. The platform also includes a basic German language learning section to help students adapt to daily life more easily._ (Need to modify)
 
 ## Architecture
 
