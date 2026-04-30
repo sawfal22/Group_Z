@@ -12,8 +12,9 @@
 TEST
 
 **What I learned:**
-- How `git switch -c` creates and moves to a branch in one step
-- That you can't push to a protected branch directly
+- How `git switch -c` creates new branch we go into the new branch
+- You cannot push to the main branch directly, you have to swtitch the branch first
 
 **Blockers / Questions:**
-- Not sure how to link CSS file correctly — will ask next session
+- Not sure if we need to create a new file for every session log - will ask next session
+- Also have some confusions with our project topic - will need help with this

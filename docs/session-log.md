@@ -29,8 +29,8 @@ TEST
 TEST
 
 **What I learned:**
-- How `git switch -c` creates and moves to a branch in one step
-- That you can't push to a protected branch directly
+- How `git switch -c` creates new branch we go into the new branch
+- You cannot push to the main branch directly
 
 **Blockers / Questions:**
 - Not sure how to link CSS file correctly — will ask next session
