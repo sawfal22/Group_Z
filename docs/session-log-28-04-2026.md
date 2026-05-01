@@ -23,4 +23,4 @@
 
 **Blockers / Questions:**
 - Not sure if we need to create a new file for every session log - will ask next session
-- Also have some confusions with our project topic - will need help with this
+- Also have some confusions with our project topic - will need help with this please
