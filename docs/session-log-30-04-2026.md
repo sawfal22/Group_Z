@@ -21,4 +21,4 @@
 - Resolving Git merge conflicts by reviewing changes, editing files, and completing the merge successfully
 
 **Blockers / Questions:**
-- Confirmed the project idea after discussion. 
+- Confirmed the project idea after discussion
