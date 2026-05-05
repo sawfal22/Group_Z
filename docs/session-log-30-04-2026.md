@@ -10,11 +10,6 @@
 
 **Blockers / Questions:**
 - Project Idea finalization
-**What I learned:**
-- How to solve conflicts in Git
-
-**Blockers / Questions:**
-- Project idea confirmation
 - Added follow-up note for commit.
 
 # Tuesday 30-04-2026
