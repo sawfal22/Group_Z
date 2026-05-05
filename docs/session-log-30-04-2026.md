@@ -10,7 +10,11 @@
 
 **Blockers / Questions:**
 - Project Idea finalization
-- Added follow-up note for commit.
+**What I learned:**
+- How to solve conflicts in Git
+
+**Blockers / Questions:**
+- Project idea confirmation
 
 # Tuesday 30-04-2026
 ## Safal
@@ -40,7 +44,7 @@ Tuesday 30-04-2026
 - Project idea sharing and confirmation.
 
 Tuesday 30-04-2026
-## Shahid
+## Shahid Afreed
 *What I worked on:**
 - How to create multiple branches and push those branches updates to main origin
 - How to add new session log(updated datas) from own branch and push them to main origin for pull request.
@@ -50,33 +54,9 @@ Tuesday 30-04-2026
 - How to pull the files or datas from main origin and work in branches to update it in main. 
 - How to resolve merge conflicts while combining changes from different branches into the main branch.
 - How to use pull requests effectively for code review, feedback, and maintaining code quality before merging changes.
-- How to solve conflicts in Github
+
 
 **Blockers / Questions:**
 - Project idea sharing and confirmation.
 
-# Tuesday 30-04-2026
-## Saksham
-**What I worked on:**
-- Helped teammates create multiple branch and push their updates
-- Discussed about project idea
-- Fixed multiple conflicts
-
-**What I learned:**
-- How to solve conflicts in Git
-
-**Blockers / Questions:**
-- Project idea confirmation
-
-# Tuesday 30-04-2026
-## Saksham
-**What I worked on:**
-- Helped teammates create multiple branch and push their updates
-- Discussed about project idea
-- Fixed multiple conflicts
-
-**What I learned:**
-- How to solve conflicts in Git
-
-**Blockers / Questions:**
-- Project idea confirmation
+ 
