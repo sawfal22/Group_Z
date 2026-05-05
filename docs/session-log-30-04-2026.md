@@ -47,7 +47,7 @@ Tuesday 30-04-2026
 - Fixed multiple conflicts
 
 **What I learned:**
-- How to solve conflicts in Git
+- How to solve conflicts in Github
 
 **Blockers / Questions:**
 - Project idea confirmation
