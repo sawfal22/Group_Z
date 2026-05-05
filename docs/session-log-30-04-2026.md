@@ -1,26 +1,15 @@
 # Tuesday 30-04-2026
-## Safal
+## Sameen
 **What I worked on:**
-- Created multiple branches and push the updates
-- Discussed about project idea with the team
-- Resolved multiple merge conflicts in the GitHub repository to ensure smooth code integration
+- Helped teammates create multiple branch and push their updates
+- Discussed about project idea
+- Fixed multiple conflicts
 
 **What I learned:**
-<<<<<<< HEAD
-- Resolving Git merge conflicts by reviewing changes, editing files, and completing the merge successfully
-
-**Blockers / Questions:**
-- Confirmed the project idea after discussion. 
-=======
 - How multiple git branching creates conflicts
 
 **Blockers / Questions:**
 - Project Idea finalization
-**What I learned:**
-- How to solve conflicts in Git
-
-**Blockers / Questions:**
-- Project idea confirmation
 - Added follow-up note for commit.
 
 # Tuesday 30-04-2026
@@ -65,5 +54,4 @@ Tuesday 30-04-2026
 
 **Blockers / Questions:**
 - Project idea sharing and confirmation.
->>>>>>> cb9c7b714fb45c967c28d1d2f26f74f70770bbb6
 
