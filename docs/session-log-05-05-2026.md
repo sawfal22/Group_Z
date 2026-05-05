@@ -34,3 +34,15 @@
 
 **Blockers / Questions:**
 - Finalizing scenarios
+
+# Tuesday 05-05-2026
+## Shahid 
+**What I worked on:**
+- Made 4 different  personas for the project
+- Identified user needs, goals, and pain points for each persona to better understand their expectations
+
+**What I learned:**
+- Learned about the personas and scenarios
+
+**Blockers / Questions:**
+- Need to finalize and validate scenarios for each persona to ensure they align with user goals and project objectives
