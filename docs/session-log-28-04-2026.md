@@ -29,9 +29,10 @@
 
 **What I learned:**
 - Working on the command `git switch -c` for how it works and shifts to a branch in one step
-- brief summarization that we can't push to a protected branch direcgitly
+- brief summarization that we can't push to a protected branch directly
 
 **Blockers / Questions:**
+- Not sure how to link CSS file correctly — will ask next session 
 - Not sure how to link CSS file correctly — will ask next session
 
 ## Saksham
