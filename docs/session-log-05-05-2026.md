@@ -19,5 +19,17 @@
  *What i learned*
  i learned about the personas and scenarios
 
-*Blockers / Questions/:*
-- Need to finalize and validate scenarios for each persona to ensure they align with user goals and project objectives
+**Blockers / Questions:**
+- Waiting for finalizing the scenarios for each persona
+
+# Tuesday 05-05-2026
+## Saksham
+**What I worked on:**
+- Made 4 different  personas for the project
+- Discussed the scenarios
+
+**What I learned:**
+- Learned about the personas and scenarios
+
+**Blockers / Questions:**
+- Finalizing scenarios
