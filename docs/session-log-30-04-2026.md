@@ -50,3 +50,4 @@ Tuesday 30-04-2026
 
 **Blockers / Questions:**
 - Project idea confirmation
+- Project idea sharing and confirmation.
