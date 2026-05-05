@@ -9,6 +9,14 @@
 - Created a new branch, added and commited the changes, pushed the changes to the new branch and made the pull request.
 - Accepted the pull request from saksham and merged it into main branch
 
+**What I learned:**
+- How `git switch -c` creates new branch we go into the new branch
+- You cannot push to the main branch directly, you have to swtitch the branch first
+
+**Blockers / Questions:**
+- Not sure if we need to create a new file for every session log - will ask next session
+- Also have some confusions with our project topic - will need help with this
+
 # Tuesday 28-04-2026
 ## Safal
 **What I worked on:**
@@ -63,10 +71,4 @@ Tuesday 28-04-2026
 - Even learning how to make repository and make push, commit and pull.git s
 - Used 'git pull origin main' command to get all the new updates and changed made to the main github repo
 
-**What I learned:**
-- How `git switch -c` creates new branch we go into the new branch
-- You cannot push to the main branch directly, you have to swtitch the branch first
 
-**Blockers / Questions:**
-- Not sure if we need to create a new file for every session log - will ask next session
-- Also have some confusions with our project topic - will need help with this
