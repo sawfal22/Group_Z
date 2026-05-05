@@ -120,5 +120,3 @@ Full-time student focused on adapting to daily communication.
 * She needs real-life conversation guidance instead of theory.
 
 ---
-
-This version keeps everything consistent, structured, and presentation-ready for your project. If you want, I can next convert this into a **table format or slides (PPT style)** which is often required for submissions.
