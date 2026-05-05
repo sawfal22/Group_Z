@@ -69,6 +69,7 @@ Tuesday 28-04-2026
 **What I worked on:**
 - Set up the project folder structure by cloning the git structure from Dr. Ali Alhosseini,s git and  created a new repository session-log.md. 
 - Added my name in README.md file as Developer. 
-- Even learning how to make repository and make push, commit and pull gits
+- Even learning how to make repository and make push, commit and pull.git s
 - Used 'git pull origin main' command to get all the new updates and changed made to the main github repo
+
 
