@@ -38,16 +38,19 @@ Tuesday 30-04-2026
 **Blockers / Questions:**
 - Project idea sharing and confirmation.
 
-# Tuesday 30-04-2026
-## Saksham
-**What I worked on:**
-- Helped teammates create multiple branch and push their updates
-- Discussed about project idea
-- Fixed multiple conflicts
-
+Tuesday 30-04-2026
+## Shahid
+*What I worked on:**
+- How to create multiple branches and push those branches updates to main origin
+- How to add new session log(updated datas) from own branch and push them to main origin for pull request.
+- 
 **What I learned:**
-- How to solve conflicts in Git
+- How to work on different branches and collaborate with each other to add some updation and delete the unnecessary files or errors or conflicts from the branches and  main origin.
+- How to pull the files or datas from main origin and work in branches to update it in main. 
+- How to resolve merge conflicts while combining changes from different branches into the main branch.
+- How to use pull requests effectively for code review, feedback, and maintaining code quality before merging changes.
+
 
 **Blockers / Questions:**
-- Project idea confirmation
 - Project idea sharing and confirmation.
+
