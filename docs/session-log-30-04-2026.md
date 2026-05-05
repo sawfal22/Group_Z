@@ -6,6 +6,11 @@
 - Fixed multiple conflicts
 
 **What I learned:**
+- How multiple git branching creates conflicts
+
+**Blockers / Questions:**
+- Project Idea finalization
+**What I learned:**
 - How to solve conflicts in Git
 
 **Blockers / Questions:**
