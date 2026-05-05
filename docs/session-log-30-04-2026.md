@@ -37,3 +37,17 @@ Tuesday 30-04-2026
 - How to pull the files or datas from main origin and work in branches to update it in main. 
 **Blockers / Questions:**
 - Project idea sharing and confirmation.
+
+# Tuesday 30-04-2026
+## Saksham
+**What I worked on:**
+- Helped teammates create multiple branch and push their updates
+- Discussed about project idea
+- Fixed multiple conflicts
+
+**What I learned:**
+- How to solve conflicts in Git
+
+**Blockers / Questions:**
+- Project idea confirmation
+- Project idea sharing and confirmation.
