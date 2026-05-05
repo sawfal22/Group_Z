@@ -12,7 +12,7 @@
 
 ## Tuesday 05-05-2026
 ## Shahid Afreed
-*What i worked on*
+*What i worked on**
 - i helped my group to make 4 different user personas for the project
 - Identified user needs, goals, and pain points for each persona to better understand their expectations
 
