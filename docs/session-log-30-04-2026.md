@@ -10,11 +10,7 @@
 
 **Blockers / Questions:**
 - Project Idea finalization
-**What I learned:**
-- How to solve conflicts in Git
-
-**Blockers / Questions:**
-- Project idea confirmation
+- Added follow-up note for commit.
 
 # Tuesday 30-04-2026
 ## Safal
@@ -54,7 +50,7 @@ Tuesday 30-04-2026
 - How to pull the files or datas from main origin and work in branches to update it in main. 
 - How to resolve merge conflicts while combining changes from different branches into the main branch.
 - How to use pull requests effectively for code review, feedback, and maintaining code quality before merging changes.
-
+- How to solve conflicts in Github
 
 **Blockers / Questions:**
 - Project idea sharing and confirmation.
