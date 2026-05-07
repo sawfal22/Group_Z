@@ -72,11 +72,12 @@ Format: _As a [persona], I want [goal], so that [benefit]._
 
 | # | Persona | User Story | Priority |
 |---|---|---|---|
-| US-01 | | | Must-have |
-| US-02 | | | Must-have |
-| US-03 | | | Must-have |
-| US-04 | | | Should-have |
-| US-05 | | | Could-have |
+| US-01 |Aarya|As a first-time international student, I want step-by-step guidance for Anmeldung, visa extension, and blocked account setup, so that I can complete important administrative tasks without confusion. | Must-have |
+| US-02 |Sita |As a newly arrived student, I want clear instructions for opening a bank account, getting a SIM card, and completing post-arrival tasks, so that I can settle in Germany quickly and smoothly. | Must-have |
+| US-03 |Lucas |As a busy Master’s student, I want quick access to accommodation comparisons and essential student information, so that I can save time and make better decisions efficiently. | Must-have |
+| US-04 |Samita |As a student with limited German language skills, I want beginner-friendly German phrases and daily conversation support, so that I can communicate confidently in real-life situations. | Should-have |
+| US-05 |International Students |Students
+As an international student, I want all important settlement information available in one platform, so that I do not need to search across multiple confusing websites. | Could-have |
 
 ---
 
@@ -84,9 +85,14 @@ Format: _As a [persona], I want [goal], so that [benefit]._
 
 _List the core features your product must have for a working MVP._
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
+- [Step-by-step guidance for Anmeldung, visa extension, blocked account, and other administrative processes] 
+- [Accommodation search and comparison for student housing options in Germany] 
+- [University and course information for international students]
+- [Beginner-friendly German phrases and daily communication support]
+- [Centralized dashboard for essential settlement resources and checklists]
+- [Banking, SIM card, and health insurance setup guidance]
+- [Simple and user-friendly interface designed for international students]
+- [Quick access to important links, documents, and official resources]
 
 ---
 
