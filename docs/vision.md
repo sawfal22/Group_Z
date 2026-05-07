@@ -76,8 +76,6 @@ Format: _As a [persona], I want [goal], so that [benefit]._
 | US-02 |Sita |As a newly arrived student, I want clear instructions for opening a bank account, getting a SIM card, and completing post-arrival tasks, so that I can settle in Germany quickly and smoothly. | Must-have |
 | US-03 |Lucas |As a busy Master’s student, I want quick access to accommodation comparisons and essential student information, so that I can save time and make better decisions efficiently. | Must-have |
 | US-04 |Samita |As a student with limited German language skills, I want beginner-friendly German phrases and daily conversation support, so that I can communicate confidently in real-life situations. | Should-have |
-| US-05 |International Students |Students
-As an international student, I want all important settlement information available in one platform, so that I do not need to search across multiple confusing websites. | Could-have |
 
 ---
 
