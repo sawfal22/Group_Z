@@ -1,7 +1,6 @@
 ## Reflection Sameen Shrestha:
 
-## 1. Which concept (personas / scenarios / user stories / features) was most useful for your
-project, and why?
+## 1. Which concept (personas / scenarios / user stories / features) was most useful for your project, and why?
 
 **Answer:**
 
@@ -33,8 +32,7 @@ The workshop made us realize that not all international students have the same e
 
 ## Reflection Saksham:
 
-## 1. Which concept (personas / scenarios / user stories / features) was most useful for your
-project, and why?
+## 1. Which concept (personas / scenarios / user stories / features) was most useful for your project, and why?
 
 **Answer:**
 
@@ -50,8 +48,7 @@ Initially, we thought most international students would be comfortable using Eng
 
 ## Reflection Safal:
 
-## 1. Which concept (personas / scenarios / user stories / features) was most useful for your
-project, and why?
+## 1. Which concept (personas / scenarios / user stories / features) was most useful for your project, and why?
 
 **Answer:**
 
