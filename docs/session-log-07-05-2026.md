@@ -13,10 +13,6 @@
 **Blockers / Questions:**
 - Using and understanding project section
 
-<<<<<<< HEAD
-
-=======
->>>>>>> main
 # Tuesday 05-05-2026
 ## Saksham
 **What I worked on:**
@@ -30,9 +26,33 @@
   
 
 **Blockers / Questions:**
-<<<<<<< HEAD
 - Using and understanding project section
-=======
-- Using and understanding project 
 
->>>>>>> main
+# Tuesday 07-05-2026
+## Jagadish
+**What I worked on:**
+- Discussed with teams and wrote different user scenarios about the problems they are facing.
+- Started working on User stories 
+- Discussed with different classmates from different groups about their vision , scopes about their products and share own products, have feedback about the products.
+- Explain the one of the scenarious to the professor about the user who will use our products.
+**What I learned:**
+- Learned about how to write user scenarios and stories
+- Learned to use the project section of Github  
+
+**Blockers / Questions:**
+- Using and understanding project section
+# Tuesday 05-05-2026
+## Safal
+**What I worked on:**
+- Had discussions on different scenarios of our project
+- Moved on to the next part for creating user stories 
+- Discussed about the projects with several group members about their scopes and outcomes
+
+**What I learned:**
+- How SCRUM methodology works by practicing it with other group members
+- Learned about how to create user scenarios and stories
+- Clear overview for the project section of Github  
+
+**Blockers / Questions:**
+- Applying and Understanding the project section
+
