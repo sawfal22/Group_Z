@@ -59,6 +59,7 @@ Mapped practical user scenarios focused on personalization, academic context, te
 Explored how persona-driven discussions improve project direction and feature planning.
 Gained experience in transforming real-world user situations into structured user stories.
 
+
 **Blockers / Questions:**
 Scenario validation is still in progress before moving to the next phase of development.
 
