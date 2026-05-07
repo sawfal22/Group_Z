@@ -13,7 +13,10 @@
 **Blockers / Questions:**
 - Using and understanding project section
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> main
 # Tuesday 05-05-2026
 ## Saksham
 **What I worked on:**
@@ -27,4 +30,9 @@
   
 
 **Blockers / Questions:**
+<<<<<<< HEAD
 - Using and understanding project section
+=======
+- Using and understanding project 
+
+>>>>>>> main
