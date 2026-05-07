@@ -13,6 +13,19 @@
 **Blockers / Questions:**
 - Using and understanding project section
 
+# Tuesday 07-05-2026
+## Jagadish
+**What I worked on:**
+- Discussed with teams and wrote different user scenarios about the problems they are facing.
+- Started working on User stories 
+- Discussed with different classmates from different groups about their vision , scopes about their products and share own products, have feedback about the products.
+- Explain the one of the scenarious to the professor about the user who will use our products.
+**What I learned:**
+- Learned about how to write user scenarios and stories
+- Learned to use the project section of Github  
+
+**Blockers / Questions:**
+- Using and understanding project section
 # Tuesday 05-05-2026
 ## Safal
 **What I worked on:**
