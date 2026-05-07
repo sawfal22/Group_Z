@@ -13,6 +13,21 @@
 **Blockers / Questions:**
 - Using and understanding project section
 
+# Tuesday 05-05-2026
+## Saksham
+**What I worked on:**
+- Discussed and wrote different user scenarios
+- Started to work on user stories
+- Discussed with different members of different groups and gave them a feedback about the projects
+
+**What I learned:**
+- Learned about Scrum
+- Learned about how to write the scenarios and user stories
+  
+
+**Blockers / Questions:**
+- Using and understanding project section
+
 # Tuesday 07-05-2026
 ## Jagadish
 **What I worked on:**
