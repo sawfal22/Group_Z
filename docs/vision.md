@@ -54,7 +54,7 @@ The primary targeted users of the German Student Navigator are international stu
 | **Frustrations** | Limited time for research, difficulty comparing housing options, and scattered online resources |
 | **Tech comfort** | High digital literacy and comfortable using online platforms |
 
-### Persona 4 — [Samita]
+### Persona 4 — [Mei]
 
 | | |
 |---|---|
@@ -103,6 +103,3 @@ _Insert photos of your whiteboard sketches, hand-drawn wireframes, or Figma link
 ## Out of Scope (v1)
 
 _Things you are explicitly NOT building in this course._
-
--
--
