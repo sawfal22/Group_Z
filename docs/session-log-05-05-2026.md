@@ -52,15 +52,15 @@ Tuesday 05-05-2026
 Jagadish
 
 **What I worked on:**
-Built four character personas representing different international student backgrounds and needs.
-Mapped practical user scenarios focused on personalization, academic context, technical ability, and relevance to the platform.
+- Built four character personas representing different international student backgrounds and needs.
+- Mapped practical user scenarios focused on personalization, academic context, technical ability, and relevance to the platform.
 
 
 **What I learned:**
-Explored how persona-driven discussions improve project direction and feature planning.
-Gained experience in transforming real-world user situations into structured user stories.
+- Explored how persona-driven discussions improve project direction and feature planning.
+- Gained experience in transforming real-world user situations into structured user stories.
 
 
 **Blockers / Questions:**
-Scenario validation is still in progress before moving to the next phase of development.
+- Scenario validation is still in progress before moving to the next phase of development.
 
