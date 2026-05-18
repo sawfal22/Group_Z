@@ -14,3 +14,18 @@
 
 **Blockers / Questions:**
 - Faced some issues while configuring Putty
+
+# Tuesday 12-05-2026
+## Saksham
+**What I worked on:**
+- Downloaded & installed Virtual Box
+- Created a new virtual machine 
+
+**What I learned:**
+- Learned about Software Architecture
+- Types of architectures and its usage
+- Learned about how to download & install Ubuntu
+
+
+**Blockers / Questions:**
+- Faced some issues while configuring Putty and virtual machine 
