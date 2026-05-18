@@ -1,15 +1,16 @@
-# Tuesday 05-05-2026
+# Tuesday 12-05-2026
 ## Sameen
 **What I worked on:**
-- Discussed and wrote different user scenarios
-- Started working on User stories 
-- Discussed with different members from different groups about their projects and scopes
+- Downloaded & installed Virtual Box
+- Created a new virtual machine and installed Ubuntu in it 
+- Installed & configured Putty inside Ubuntu 
 
 **What I learned:**
-- Learned about how SCRUM actually works by practicing it with other group members
-- Learned about how to write user scenarios and stories
-- Learned to use the project section of Github  
+- Learned about Software Architecture
+- Types of architectures and its usage
+- Learned about how to download & install Ubuntu
+- How to configure virtual machine for different system
+- Using Putty and confiuring SSH, FTP & SCP
 
 **Blockers / Questions:**
-- Using and understanding project section
-
+- Faced some issues while configuring Putty

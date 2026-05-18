@@ -64,7 +64,7 @@
 - to accept the pull request from a friend and merged it into main branch
 - to create and switch to a new feature branch and manage changing before merging into main branch
 
-Tuesday 28-04-2026
+# Tuesday 28-04-2026
 ## Jagadish
 **What I worked on:**
 - Set up the project folder structure by cloning the git structure from Dr. Ali Alhosseini,s git and  created a new repository session-log.md. 
