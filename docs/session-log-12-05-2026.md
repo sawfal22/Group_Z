@@ -28,4 +28,4 @@
 
 
 **Blockers / Questions:**
-- Faced some issues while configuring Putty and virtual machine
+- Faced some issues while configuring Putty and virtual machine jsadbjasbdjasbd
