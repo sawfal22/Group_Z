@@ -1,4 +1,4 @@
-# Tuesday 05-05-2026
+# Tuesday 07-05-2026
 ## Sameen
 **What I worked on:**
 - Discussed and wrote different user scenarios
@@ -13,7 +13,7 @@
 **Blockers / Questions:**
 - Using and understanding project section
 
-# Tuesday 05-05-2026
+# Tuesday 07-05-2026
 ## Saksham
 **What I worked on:**
 - Discussed and wrote different user scenarios
@@ -41,7 +41,7 @@
 
 **Blockers / Questions:**
 - Using and understanding project section
-# Tuesday 05-05-2026
+# Tuesday 07-05-2026
 ## Safal
 **What I worked on:**
 - Had discussions on different scenarios of our project

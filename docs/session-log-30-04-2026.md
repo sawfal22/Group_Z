@@ -1,5 +1,4 @@
 # Tuesday 30-04-2026
-
 ## Sameen
 
 **What I worked on:**
@@ -23,7 +22,6 @@
 - Project idea confirmation
 
 # Tuesday 30-04-2026
-
 ## Safal
 
 **What I worked on:**
@@ -40,8 +38,7 @@
 
 - Confirmed the project idea after discussion
 
-Tuesday 30-04-2026
-
+# Tuesday 30-04-2026
 ## Jagadish
 
 *What I worked on:**
@@ -58,8 +55,7 @@ Tuesday 30-04-2026
 **Blockers / Questions:**
 - Project idea sharing and confirmation.
 
-Tuesday 30-04-2026
-
+# Tuesday 30-04-2026
 ## Shahid Afreed
 
 *What I worked on:**
@@ -80,8 +76,7 @@ Tuesday 30-04-2026
 - Project idea sharing and confirmation.
 - 
 
-Tuesday 30-04-2026
-
+# Tuesday 30-04-2026
 ## Saksham
 
 *What I worked on:**
