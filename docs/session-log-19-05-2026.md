@@ -1,4 +1,4 @@
-# Tuesday 12-05-2026
+# Tuesday 19-05-2026
 ## Sameen
 **What I worked on:**
 - Created a new virtual machine and installed Ubuntu in it.
@@ -19,7 +19,7 @@
 - Blocker (Step 4): Ran into trouble while installing and starting the Nginx web server service; had difficulties verifying if it was active and properly passing through the UFW firewall.
 - Blocker (Step 5): Faced issues during the static website deployment phase; the custom HTML file was not displaying correctly when accessed via the VM's IP address.
 
-# Tuesday 12-05-2026
+# Tuesday 19-05-2026
 ## Saksham
 **What I worked on:**
 - Downloaded & installed Virtual Box
@@ -33,3 +33,21 @@
 
 **Blockers / Questions:**
 - Faced some issues while configuring Putty and virtual machine 
+
+# Tuesday 19-05-2026
+## Safal
+**What I worked on:**
+- Set up a virtual machine with Ubuntu, then installed and configured PuTTY, SSH, FTP, and SCP to enable file transfer between the host and Linux machine
+- Installed and configured the Nginx web server
+- Deployed a static HTML website to the /var/www/html/ directory
+
+**What I learned:**
+- Explored software architecture while configuring Ubuntu
+- Setting up SSH/FTP/SCP file transfers via FileZilla
+- Deploying a static website using Nginx and systemctl commands
+- Gained hands-on experience in software architecture, Ubuntu setup, secure file transfers with FileZilla
+- Managing Nginx web server to host static web content
+
+
+**Blockers / Questions:**
+- "Faced issues installing and verifying Nginx through UFW firewall, and struggled with the static HTML file not displaying correctly via the VM's IP address.
