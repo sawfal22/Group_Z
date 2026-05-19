@@ -19,23 +19,17 @@
 - Blocker (Step 4): Ran into trouble while installing and starting the Nginx web server service; had difficulties verifying if it was active and properly passing through the UFW firewall.
 - Blocker (Step 5): Faced issues during the static website deployment phase; the custom HTML file was not displaying correctly when accessed via the VM's IP address.
 
-# Tuesday 19-05-2026
+# Tuesday 12-05-2026
 ## Saksham
 **What I worked on:**
--Set up the environment using Virtual Box and installed the Ubuntu operating system.
--Established remote terminal access using Putty configurations.
--Tested secure file transfers between systems using SCP commands and explored SFTP alternatives using FileZilla.
--Worked on configuring Nginx web server packages, focusing on enabling the service automatically on boot.
--Drafted a basic static HTML landing page to test local deployment in the web server's document root.
- 
+- Downloaded & installed Virtual Box
+- Created a new virtual machine 
 
 **What I learned:**
--Gained hands-on experience setting up virtualized environments and navigating Linux OS installations.
--Learned how to utilize SCP commands to push local files (index.html) directly into remote server directories.
--Learned how to manage web server states using sudo systemctl commands (start, restart, status, reload).
--Understood the foundational structure of a static HTML document (<!DOCTYPE html>) and how web servers render them.
-
+- Learned about Software Architecture
+- Types of architectures and its usage
+- Learned about how to download & install Ubuntu
 
 
 **Blockers / Questions:**
-- Encountered configuration and permission issues when trying to install Nginx and adjust firewall rules (sudo ufw allow 'Nginx Full'). The server service status kept returning errors.
+- Faced some issues while configuring Putty and virtual machine 
