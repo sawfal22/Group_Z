@@ -15,9 +15,6 @@
 **Blockers / Questions:**
 - Faced some issues while configuring Putty
 
-<<<<<<< HEAD
-####TESTTT#####
-=======
 # Tuesday 12-05-2026
 ## Saksham
 **What I worked on:**
@@ -32,4 +29,19 @@
 
 **Blockers / Questions:**
 - Faced some issues while configuring Putty and virtual machine 
->>>>>>> 011a75cef9253027689477c3af39948a83fa12e4
+
+# Tuesday 12-05-2026
+## Safal
+**What I worked on:**
+- Downloaded & installed Virtual Box machine application
+- Created a new virtual machine and deployed "Ubuntu" software with live server file
+
+**What I learned:**
+- Knew about the Software Architecture
+- Types of software architectures and its usage
+- Learned about how to download & install Ubuntu
+- How to configure virtual machine for different system
+
+**Blockers / Questions:**
+- Had issues while configuring Filezilla
+
