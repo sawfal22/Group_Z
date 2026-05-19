@@ -19,6 +19,7 @@
 - Blocker (Step 4): Ran into trouble while installing and starting the Nginx web server service; had difficulties verifying if it was active and properly passing through the UFW firewall.
 - Blocker (Step 5): Faced issues during the static website deployment phase; the custom HTML file was not displaying correctly when accessed via the VM's IP address.
 
+<<<<<<< HEAD
 # Tuesday 19-05-2026
 ## Saksham
 **What I worked on:**
@@ -94,3 +95,4 @@
 **Blockers / Questions:**
  - Had different issues while prompting the commands and coping files and even making connection between host and remote server.
  - Even get issues while initializing the static website with the help of nginx. 
+
