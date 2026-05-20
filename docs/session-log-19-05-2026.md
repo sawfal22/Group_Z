@@ -51,3 +51,31 @@
 
 **Blockers / Questions:**
 - "Faced issues installing and verifying Nginx through UFW firewall, and struggled with the static HTML file not displaying correctly via the VM's IP address.
+
+# Tuesday 19-05-2026
+
+## Jagadish
+
+**What I worked on:**
+- On a Ubuntu Live server deplayed on VB, installed Open-SSH server and connect a host and server machine with NAT and Host-Only Network Adapter by implementing ping with Ip Address.
+
+- Installed a third party FileZilla Software using SFTP Sofware to connect remote server with host machine and copied files from host to server(viceversa).
+
+- Create a .txt file in Ubuntu using nano editor as well as in windows through   notepad.
+- Moved that file in both machines using filezilla.
+- Also created a html file in host machine using notepad (windows) and used SCP (secure copy files) to copy files between host and virtual machine.
+- Installed and configured the Nginx web server
+- Deployed a static website index.html locally in a browser (Succeed).
+
+**What I learned:**
+- Learned how to connect host machine with remote server using OpenSSH server.
+- Establishment of host machine and virtual machine trasferring files using SFTP through filezilla.
+- How to create .txt and html files and move or copy between remote server and host machine.
+- How to deploy a static website using Nginx software and windows commands as well as using linux commands like install,start,enable,reload etc.
+- Experience some architecture of softwares and file trasfer between host and virtual machines using FileZilla.
+- How to make a html file displayed on local browser through nginx.
+
+
+**Blockers / Questions:**
+ - Had different issues while prompting the commands and coping files and even making connection between host and remote server.
+ - Even get issues while initializing the static website with the help of nginx. 
