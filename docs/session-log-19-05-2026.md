@@ -22,6 +22,7 @@
 # Tuesday 19-05-2026
 ## Saksham
 **What I worked on:**
+<<<<<<< HEAD
 - Downloaded & installed Virtual Box
 - Created a new virtual machine 
 
@@ -29,6 +30,20 @@
 - Learned about Software Architecture
 - Types of architectures and its usage
 - Learned about how to download & install Ubuntu
+=======
+- Set up the environment using Virtual Box and installed the Ubuntu operating system.
+- Established remote terminal access using Putty configurations.
+- Tested secure file transfers between systems using SCP commands and explored SFTP alternatives using FileZilla.
+- Worked on configuring Nginx web server packages, focusing on enabling the service automatically on boot.
+- Drafted a basic static HTML landing page to test local deployment in the web server's document root.
+ 
+
+**What I learned:**
+- Gained hands-on experience setting up virtualized environments and navigating Linux OS installations.
+- Learned how to utilize SCP commands to push local files (index.html) directly into remote server directories.
+- Learned how to manage web server states using sudo systemctl commands (start, restart, status, reload).
+- Understood the foundational structure of a static HTML document (<!DOCTYPE html>) and how web servers render them.
+>>>>>>> c46c9a7 (Session logs updated by Saksham)
 
 
 **Blockers / Questions:**
