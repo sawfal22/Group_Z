@@ -94,6 +94,4 @@
 
 **Blockers / Questions:**
  - Had different issues while prompting the commands and coping files and even making connection between host and remote server.
- - Even get issues while initializing the static website with the help of nginx. 
- - Fixing conflicting rebasing
- - Testing auto push without setting up the upstream
+ - Even get issues while initializing the static website with the help of nginx.
