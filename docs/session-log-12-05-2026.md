@@ -44,3 +44,20 @@
 
 **Blockers / Questions:**
 - Had issues while configuring Filezilla
+
+# Tuesday 12-05-2026
+## Jagadish
+
+**What I worked on:**
+- Downloaded and installed VB as a virtual machine.
+- Downloaded Ubuntu Server iso image file and deployed it inside the VB.
+
+
+**What I learned:**
+- Knowledge gained bout Software Architectures and its components.
+- Learned about achitecture model of document retrievel system,Server,Open source and Database.
+- How to download and install virtual box, Linux system as "Ubuntu".
+- How to configure SSH,FTP,SCP.
+
+**Blockers / Questions:**
+- Faced problems while configuring SSH and mainly FileZilla (as blocked by Windows firewall while installation)
