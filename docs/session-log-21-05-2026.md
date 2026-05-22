@@ -65,3 +65,26 @@
 - Issued with instalation and configuring docker desktop version.
 - Troubled with right paths while using volume/bind mounts.
 - Got on issues while creating a services inside docker compose to run.
+
+
+# Tuesday 21-05-2026
+## Saksham
+**What I worked on:**
+- Installed Docker and Docker Compose on the system.
+- Downloaded and ran an Nginx web server using containers.
+- Used bind mounts to connect files between the host machine and the container.
+- Explored live development workflows with Docker volumes.
+Managed the complete setup using Docker Compose.
+
+**What I learned:**
+- Learned about cloud computing and its benefits in software development.
+- Learned what containers are and their advantages.
+- Learned about services and different types of services.
+- Studied SaaS design along with its advantages and disadvantages.
+- Also learned how to use Docker and Docker Compose, and understood that 
+- Docker deployment is much faster compared to hosting with virtual machines.
+
+**Blockers / Questions:**
+- Faced some issues while configuring Docker and Docker Compose.
+- Had trouble setting up Docker bind mounts.
+- Faced problems while setting up Docker Compose and running commands in the terminal.
