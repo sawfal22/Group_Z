@@ -20,7 +20,7 @@
 # Tuesday 28-04-2026
 ## Safal
 **What I worked on:**
-- created a project folder structure by developing a new repository and imported the git structure template from Dr. Ali Alhosseini's git repository 
+- Created a project folder structure by developing a new repository and imported the git structure template from Dr. Ali Alhosseini's git repository 
 - Added my name 'Safal' in the README.md file as Product Owner
 - Discussed with the team members regarding their respective role. 
 - New team member added and told him the product idea and his development role. H
