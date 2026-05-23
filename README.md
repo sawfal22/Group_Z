@@ -1,6 +1,7 @@
-# International Student Assistant
+# International Student Assistance
 
-> A web app that helps new students navigate essential steps for arriving in Germany.
+> A web app that supports international students in Germany by guiding them through universities, accommodation, visa and registration processes, banking, SIM setup, and basic German language learning for smoother transition.
+
 
 ## Team
 
@@ -14,7 +15,7 @@
 
 ## Project Overview
 
-_The International Student Assistant (Germany) is a web-based platform designed to help international students navigate essential steps when studying and living in Germany. It provides a centralized system where users can explore universities and courses, understand accommodation options and average rents, and follow step-by-step guides for important administrative processes such as visa extensions, city registration (Anmeldung), bank account setup, and SIM card activation. The platform also includes a basic German language learning section to help students adapt to daily life more easily._ (Need to modify)
+_The International Student Assistant (Germany) is a web-based platform designed to help international students navigate essential steps when studying and living in Germany. It provides a centralized system where users can explore universities and courses, understand accommodation options and average rents, and follow step-by-step guides for important administrative processes such as visa extensions, city registration (Anmeldung), bank account setup, and SIM card activation.
 
 ## Architecture
 
@@ -31,10 +32,10 @@ service-a  ──►  service-b
 
 | Layer | Technology |
 |---|---|
-| Frontend | |
-| Backend | |
-| Database | |
-| Deployment | |
+| Frontend |HTML,CSS,SASS,JS |
+| Backend |PHP + LMS SOFTWARE |
+| Database |MySQL |
+| Deployment |Shared Hosting via HostPapa (sub-domain)|
 
 ## Getting Started
 
@@ -46,8 +47,8 @@ service-a  ──►  service-b
 ### Run locally
 
 ```bash
-git clone https://github.com/<your-org>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/sawfal22/Group_Z.git
+cd <Group_Z>
 cp .env.example .env   # fill in your values
 docker compose up --build
 ```
