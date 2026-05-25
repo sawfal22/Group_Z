@@ -96,7 +96,7 @@ _List the core features your product must have for a working MVP._
 
 ## Wireframes / Sketches
 
-<img src="/img/ISA_Wireframe.png" alt="Girl in a jacket" width="500" height="600">
+<img src="/img/ISA_Wireframe.png" alt="International Student Assistant Wireframe" width="500">
 
 ---
 
