@@ -61,3 +61,23 @@
 
 **Blockers / Questions:**
 - Faced problems while configuring SSH and mainly FileZilla (as blocked by Windows firewall while installation)
+
+## Tuesday 12-05-2026
+## Shahid Afreed 
+
+**What I worked on:**
+- Installed and configured the VirtualBox application
+- Created a new virtual machine and set up Ubuntu using the live server image
+- Worked on understanding system setup and virtualization concepts
+- Explored basic server configuration and environment setup
+
+**What I learned:**
+- Learned the basics of Software Architecture
+- Understood different types of software architectures and their uses
+- Gained knowledge about downloading and installing Ubuntu
+- Learned how to configure virtual machines for different operating systems
+- Improved understanding of virtualization tools and server environments
+
+**Blockers / Questions:**
+- Faced some issues while configuring FileZilla
+- Needed more understanding of connection and transfer settings in FileZilla

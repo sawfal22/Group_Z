@@ -88,3 +88,25 @@ Managed the complete setup using Docker Compose.
 - Faced some issues while configuring Docker and Docker Compose.
 - Had trouble setting up Docker bind mounts.
 - Faced problems while setting up Docker Compose and running commands in the terminal.
+
+# Tuesday 21-05-2026
+# Shahid Afreed
+**What I worked on:**
+- Installed Docker and Docker Compose and completed initial setup checks
+- Ran an Nginx web server inside a Docker container
+- Set up bind mounts to link local project files with the container
+- Tested real-time updates using Docker volumes for development workflow
+- Created and managed services using Docker Compose configuration files
+
+**What I learned:**
+- Understood the basics of cloud computing and its importance in modern applications
+- Learned how containerization works and why it is used instead of traditional setups
+- Explored different types of services and their roles in application design
+- Studied SaaS architecture and its key benefits and trade-offs
+- Gained practical experience with Docker and Docker Compose for deployment
+- Learned that container-based deployment is more efficient and quicker than virtual machine setups
+
+**Blockers / Questions:**
+- Had issues during Docker and Docker Compose installation and setup process
+- Faced problems while correctly configuring bind mounts between host and container
+- Struggled with Docker Compose execution and troubleshooting service startup errors
