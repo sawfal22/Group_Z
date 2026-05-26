@@ -59,3 +59,17 @@ The most valuable concepts for our project were personas and scenarios because t
 **Answer:**
 
 Initially, we believed that most international students would easily adapt to English-based digital platforms. However, while working with personas and scenarios, we recognized that many users may face challenges related to language, cultural adaptation, and understanding unfamiliar systems in Germany. As a result, we reconsidered our design approach and focused more on creating a simple interface, providing multilingual options, and offering clear step-by-step assistance within the app.
+
+## Reflection Shahid Afreed:
+
+## 1. Which concept (personas / scenarios / user stories / features) was most useful for your project, and why?
+
+**Answer:**
+
+User stories were the most useful concept for our project because they helped us understand the application from the users’ perspective. Writing user stories allowed us to focus on what international students actually need and how the app can solve their problems in a simple way. It also helped the team organize tasks clearly and prioritize important features during development.
+
+## 2. What is one assumption about your users that this workshop forced you to challenge?
+
+**Answer:**
+
+At first, we assumed that users would already be familiar with how German systems and services work. However, during the workshop, we realized that many international students may feel confused or overwhelmed when using unfamiliar platforms and processes. This made us rethink our design and focus more on simplicity, guidance, and easy navigation to improve the overall user experience.

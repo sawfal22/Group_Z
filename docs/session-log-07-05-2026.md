@@ -56,3 +56,18 @@
 **Blockers / Questions:**
 - Applying and Understanding the project section
 
+# Tuesday 07-05-2026
+# Shahid Afreed 
+**What I worked on:**
+- Participated in discussions on multiple project scenarios and implementation ideas
+- Continued working on creating and organizing user stories for the project
+- Collaborated with team members to understand project scope, features, and expected outcomes
+- Contributed to project-related tasks and updated progress with the group
+
+**What I learned:**
+- Improved my understanding of the SCRUM methodology through practical teamwork activities
+- Learned how to write and structure user scenarios and user stories effectively
+- Gained better knowledge of managing tasks and tracking progress in GitHub projects
+
+**Blockers / Questions:**
+- Still improving my understanding of applying the project section and workflow management in GitHub

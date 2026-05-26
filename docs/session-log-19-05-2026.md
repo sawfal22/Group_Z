@@ -91,3 +91,25 @@
 **Blockers / Questions:**
  - Had different issues while prompting the commands and coping files and even making connection between host and remote server.
  - Even get issues while initializing the static website with the help of nginx.
+
+ ## Tuesday 19-05-2026
+ # Shahid Afreed 
+
+**What I worked on:**
+- Configured an Ubuntu virtual machine and prepared it for server setup
+- Set up remote access tools including PuTTY and SSH for secure communication with the VM
+- Installed FTP and SCP services to enable file transfer between host and virtual machine
+- Installed Nginx web server and deployed a basic static website
+- Tested local hosting by placing HTML files into the web server directory
+
+**What I learned:**
+- Understood the basics of Linux server setup and virtual machine environments
+- Learned how SSH, FTP, and SCP are used for secure file transfers
+- Gained experience in installing and managing web servers using Nginx
+- Learned how a static website is hosted on a Linux server
+- Improved understanding of how system services are managed in Ubuntu
+
+**Blockers / Questions:**
+- Encountered difficulties while configuring Nginx with UFW firewall rules
+- ebsite was not loading correctly when accessing the VM IP address in the browser
+- Need more clarity on debugging web server and network configuration issues
