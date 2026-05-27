@@ -17,6 +17,7 @@
 
 **Project Overviews:**
 *EcoConnect*
+
 **Keypoints:**
 - The team explained how technology can help people participate in environmental activities.
 - They highlighted the problem that many volunteering opportunities are difficult to find or poorly organized.
