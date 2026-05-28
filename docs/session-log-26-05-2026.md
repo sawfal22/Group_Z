@@ -37,44 +37,62 @@
 - Observed how teams present project ideas effectively.
 - Gained insights into developing applications that create positive social impact.
 
-# Tuesday 19-05-2026
-## Saksham
+# Tuesday 26-05-2026
+## Safal
 **What I worked on:**
-- Worked together with my teammates to prepare and organize the presentation.
-- Presented the product overview, the problem we identified, and the target audience we aimed to help.
-- Explained the sprint planning process, including the product backlog and how tasks were divided among the team.
+- Teamed up with others to build and present the project in a clear structured way
+- Explained the project development and showcased the live demo for the project
+- Also covered the services, features and the functionality of the project
 
 **What I learned:**
-- Improved my teamwork and presentation skills by collaborating closely with the group.
-- Gained a better understanding of system architecture and why user-centered design is important.
-- Improved my ability to explain technical ideas in a simple and clear way.
-- Became more confident when responding to technical and practical questions during presentations.
+- Delivered a clear and well-structured presentation that made technical ideas easy to understand
+- Worked closely with my team and improved my communication through active collaboration
+- Gained experience in explaining both technical and practical aspects of the project
+- Learned how to handle questions related to development, accuracy, and real-world application
+
 **Blockers / Questions:**
-- Currently preparing for the next phase of the project and deciding which features should be improved, removed, or kept for future development.
+- Planning to move into implementation with sprint planning and coordination with the development team
 
 **Project Overviews:**
-*EcoConnect*
+
+* EcoConnect *
 
 **Keypoints:**
-- The team showed how technology can encourage people to participate in environmental and community activities.
-- They discussed the issue that many volunteering opportunities are hard to discover or are not properly managed.
-- EcoConnect allows users to easily find and join local volunteering events while also giving important event details and communication with organizers.
-- Planned future features include personalized event suggestions, notifications, and a tracking system for volunteer activities and achievements.
-- They also demonstrated the platform’s design and overall user experience.
+- EcoConnect simplifies finding, registering, and connecting with nearby environmental volunteering events
+- The team demonstrated how digital solutions can encourage participation in environmental volunteering and community activities
+- They pointed out that finding volunteering opportunities is often confusing due to scattered or incomplete information
+- Planned improvements include tailored suggestions, alert systems, and tracking of user involvement and contributions
+- The overall interface and user journey were showcased to explain how the system works in practice
 
 **What I found interesting:**
-- I found the project meaningful because it focuses on solving a real-world community problem.
-- I liked how the platform motivates people to get involved in social and environmental activities.
-- The recommendation feature seemed useful for helping users discover volunteering opportunities more easily.
-- The project demonstrated how digital platforms can connect people for positive community impact.
+- It was interesting to see how different groups approached real-life challenges using technology in creative ways
+- The EcoConnect idea stood out because it motivates people to engage in environmental and social initiatives through an easy-to-use system
+- The recommendation system helps users find relevant events they may not come across on their own
+- It improves the visibility of opportunities by matching users with suitable activities
+- The project also demonstrates how online platforms can connect people around shared goals and interests
 
 **What I learned:**
-- Learned how technology can support community involvement and engagement.
-Understood the importance of keeping applications simple, user-friendly, and accessible.
-- Observed effective ways teams present and explain their project ideas.
-- Gained insights into building applications that can create a positive social impact in society.
+- Learned how digital tools can enhance community participation and make opportunities easier to reach
+- Understood the importance of making applications simple and accessible for users
+- Watching different presentations helped me see how structured communication makes technical ideas more impactful and easy to follow
 
+* SafeStay AI *
 
+**Keypoints:**
+- Students and newcomers in Germany often fall victim to rental scams and overpriced listings
+- Users enter rent details and the system flags whether the listing is fair or suspicious
+- Machine learning compares submitted data against real regional prices to detect dishonest listings
+- Future features include scam alerts, user reviews, and live housing market data integration
 
+**What I found interesting:**
+- A simple AI tool can directly protect vulnerable renters from serious financial harm
+- The professor's questions pushed us to think critically about our data reliability
+- Balancing technical accuracy with a simple, trustworthy user interface was genuinely challenging
+
+**What I learned:**
+- AI can solve real everyday social problems, not just purely technical ones
+- User-centered design and system architecture must be planned from the very beginning
+- Explaining technical ideas clearly to mixed audiences requires precision and honest communication
+- Handling live questions taught me to acknowledge gaps confidently without avoiding them
 
 
