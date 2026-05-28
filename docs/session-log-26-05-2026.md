@@ -55,7 +55,7 @@
 
 **Project Overviews:**
 
-* EcoConnect *
+* 1- EcoConnect *
 
 **Keypoints:**
 - EcoConnect simplifies finding, registering, and connecting with nearby environmental volunteering events
@@ -76,7 +76,7 @@
 - Understood the importance of making applications simple and accessible for users
 - Watching different presentations helped me see how structured communication makes technical ideas more impactful and easy to follow
 
-* SafeStay AI *
+* 2- SafeStay AI *
 
 **Keypoints:**
 - Students and newcomers in Germany often fall victim to rental scams and overpriced listings
