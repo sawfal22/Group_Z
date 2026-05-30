@@ -133,3 +133,45 @@ Understood the importance of keeping applications simple, user-friendly, and acc
 - Handling live questions taught me to acknowledge gaps confidently without avoiding them
 
 
+# Tuesday 26-05-2026
+## Jagadish
+**What I worked on:**
+- Prepare a Presentation about the project we worked on.
+- Explained the project's Internal Architecture System and how the Frontend,Backend and Database are structured and user can directly interact with it. 
+- Designed the Demo version of the product as a illustration and Make availibilty of the relevant resources and support as users need when the products is fully activated.
+
+**What I learned:**
+- How to make a clear view of the products through illustartion.
+- How to collaborate with teams to make the product's visualization clear and simple to understand.
+- Get experienced, how to demonstrate the presentation so that the viewer can easily get good understanding of the products.  
+- Learned the problems while designing the products to fetch through different APIs.
+
+**Blockers / Questions:**
+- The problems while using Wordpress for designing the  product application.
+- To fetch the outsource APIs to support the product fully working.
+
+**Project Overviews:**
+
+# There are presentation of different products as each group are preparing, while some are - "Ecoconnect","Safestay AI","StayFit",, likewise.... 
+
+**Main Keypoints:**
+- I understand the concept of different products which can help people to save time and money through these platforms.
+- The products are in good way if they are launced in the market for people to use this digital technology. 
+
+**What I found interesting:**
+- The EcoConnect idea stood out because it motivates people to engage in environmental and social initiatives through an easy-to-use system.
+- The project also demonstrates how online platforms can connect people around shared goals and interests.
+- The SafeStay AI shows how a student, immigrant in germany can be safe from the rental scams and overprice listings.
+-  A simple AI tool can directly protect vulnerable renters from serious financial harm.
+-  As users enter  the rent details and the system flags whether the listing is fair or suspicious.
+- The StayFit shows that how can people match their dress for different occasion and partys .
+- With the simple tools just matching different styles of clothes for perfection and attractions.
+-  Balancing technical accuracy with a simple, trustworthy user interface was genuinely challenging.
+- The questions and suggestions from my peers shows that there are still some missing gaps in all products and need to solve before launching.
+
+**What I Learned:**
+- The Products have different  problems and gaps for integrations.
+- The questions from the professor makes the product owner to think and fill all possible methods, technology before they move to final stage.
+- Though the products concept are good but it is not the actual new products which can have useful market.
+- I learned the different Digital tech can change the peoples life if implementated actively.
+
