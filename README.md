@@ -1,6 +1,6 @@
 # International Student Assistance
 
-> A web app that supports international students in Germany by guiding them through universities, accommodation, visa and registration processes, banking, SIM setup, and basic German language learning for smoother transition.
+_A web app that supports international students in Germany by guiding them through universities, accommodation, visa and registration processes, banking, SIM setup, and basic German language learning for smoother transition.
 
 
 ## Team
