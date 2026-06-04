@@ -36,7 +36,7 @@
 - Finalizing scenarios
 
 # Tuesday 05-05-2026
-## Shahid 
+## Shahid Afreed 
 **What I worked on:**
 - Made 4 different  personas for the project
 - Identified user needs, goals, and pain points for each persona to better understand their expectations

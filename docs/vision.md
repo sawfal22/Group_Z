@@ -96,7 +96,7 @@ _List the core features your product must have for a working MVP._
 
 ## Wireframes / Sketches
 
-_Insert photos of your whiteboard sketches, hand-drawn wireframes, or Figma link here._
+<img src="/img/ISA_Wireframe.png" alt="International Student Assistant Wireframe" width="500">
 
 ---
 

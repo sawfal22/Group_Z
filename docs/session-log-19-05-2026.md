@@ -1,4 +1,4 @@
-# Tuesday 12-05-2026
+# Tuesday 19-05-2026
 ## Sameen
 **What I worked on:**
 - Created a new virtual machine and installed Ubuntu in it.
@@ -19,7 +19,7 @@
 - Blocker (Step 4): Ran into trouble while installing and starting the Nginx web server service; had difficulties verifying if it was active and properly passing through the UFW firewall.
 - Blocker (Step 5): Faced issues during the static website deployment phase; the custom HTML file was not displaying correctly when accessed via the VM's IP address.
 
-# Tuesday 12-05-2026
+# Tuesday 19-05-2026
 ## Saksham
 **What I worked on:**
 - Downloaded & installed Virtual Box
@@ -29,6 +29,18 @@
 - Learned about Software Architecture
 - Types of architectures and its usage
 - Learned about how to download & install Ubuntu
+- Set up the environment using Virtual Box and installed the Ubuntu operating system.
+- Established remote terminal access using Putty configurations.
+- Tested secure file transfers between systems using SCP commands and explored SFTP alternatives using FileZilla.
+- Worked on configuring Nginx web server packages, focusing on enabling the service automatically on boot.
+- Drafted a basic static HTML landing page to test local deployment in the web server's document root.
+ 
+
+**What I learned:**
+- Gained hands-on experience setting up virtualized environments and navigating Linux OS installations.
+- Learned how to utilize SCP commands to push local files (index.html) directly into remote server directories.
+- Learned how to manage web server states using sudo systemctl commands (start, restart, status, reload).
+- Understood the foundational structure of a static HTML document (<!DOCTYPE html>) and how web servers render them.
 
 
 **Blockers / Questions:**
@@ -51,3 +63,56 @@
 
 **Blockers / Questions:**
 - "Faced issues installing and verifying Nginx through UFW firewall, and struggled with the static HTML file not displaying correctly via the VM's IP address.
+<<<<<<< HEAD
+=======
+
+# Tuesday 19-05-2026
+
+## Jagadish
+
+**What I worked on:**
+- On a Ubuntu Live server deplayed on VB, installed Open-SSH server and connect a host and server machine with NAT and Host-Only Network Adapter by implementing ping with Ip Address.
+
+- Installed a third party FileZilla Software using SFTP Sofware to connect remote server with host machine and copied files from host to server(viceversa).
+
+- Create a .txt file in Ubuntu using nano editor as well as in windows through   notepad.
+- Moved that file in both machines using filezilla.
+- Also created a html file in host machine using notepad (windows) and used SCP (secure copy files) to copy files between host and virtual machine.
+- Installed and configured the Nginx web server
+- Deployed a static website index.html locally in a browser (Succeed).
+
+**What I learned:**
+- Learned how to connect host machine with remote server using OpenSSH server.
+- Establishment of host machine and virtual machine trasferring files using SFTP through filezilla.
+- How to create .txt and html files and move or copy between remote server and host machine.
+- How to deploy a static website using Nginx software and windows commands as well as using linux commands like install,start,enable,reload etc.
+- Experience some architecture of softwares and file trasfer between host and virtual machines using FileZilla.
+- How to make a html file displayed on local browser through nginx.
+
+
+**Blockers / Questions:**
+ - Had different issues while prompting the commands and coping files and even making connection between host and remote server.
+ - Even get issues while initializing the static website with the help of nginx.
+
+ ## Tuesday 19-05-2026
+ # Shahid Afreed 
+
+**What I worked on:**
+- Configured an Ubuntu virtual machine and prepared it for server setup
+- Set up remote access tools including PuTTY and SSH for secure communication with the VM
+- Installed FTP and SCP services to enable file transfer between host and virtual machine
+- Installed Nginx web server and deployed a basic static website
+- Tested local hosting by placing HTML files into the web server directory
+
+**What I learned:**
+- Understood the basics of Linux server setup and virtual machine environments
+- Learned how SSH, FTP, and SCP are used for secure file transfers
+- Gained experience in installing and managing web servers using Nginx
+- Learned how a static website is hosted on a Linux server
+- Improved understanding of how system services are managed in Ubuntu
+
+**Blockers / Questions:**
+- Encountered difficulties while configuring Nginx with UFW firewall rules
+- ebsite was not loading correctly when accessing the VM IP address in the browser
+- Need more clarity on debugging web server and network configuration issues
+>>>>>>> 562d33d96bced146846f1dbe62115821527edbac
