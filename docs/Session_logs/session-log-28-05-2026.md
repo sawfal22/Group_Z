@@ -15,7 +15,7 @@
 - Faced some errors while running the code at the terminal 
 
 
-# Tuesday 28-05-2026
+# Thursday 28-05-2026
 ## Jagadish
 **What I worked on:**
 - Set up Full-Stack MVC Architecture Lab using React, FastAPI and Docker App.
