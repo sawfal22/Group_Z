@@ -16,3 +16,20 @@
 **Blockers / Questions:**
 -  Got some issues while displaying the UI on the local browser.
 - While Creating button it didn't load the services in app.jsx and resolved with the professor's help.  
+
+# Tuesday 02-06-2026
+## Safal
+**What I worked on:**
+- Integrated the React frontend with the newly developed FastAPI task endpoints and verified the API communication flow
+- Implemented task creation and deletion features in the user interface while keeping API-related logic centralized in api.js
+- Updated backend CORS settings to allow frontend requests and ensure proper communication between both applications 
+- Established CORS permissions in the FastAPI backend at http://localhost:5173 to facilitate successful API requests from the frontend interface 
+
+**What I learned:**
+- Learned how React applications interact with FastAPI services through API requests
+- Improved my understanding of structuring frontend projects by separating service logic from UI components
+- Gained practical experience managing application state and refreshing data to reflect backend changes in real time
+
+**Blockers / Questions:**
+- Experienced difficulties displaying parts of the UI correctly during local development
+- Encountered an issue where service functions were not being recognized in App.jsx while implementing the create task feature 
