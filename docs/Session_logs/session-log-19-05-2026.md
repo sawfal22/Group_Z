@@ -63,6 +63,8 @@
 
 **Blockers / Questions:**
 - "Faced issues installing and verifying Nginx through UFW firewall, and struggled with the static HTML file not displaying correctly via the VM's IP address.
+<<<<<<< HEAD
+=======
 
 # Tuesday 19-05-2026
 
@@ -113,3 +115,4 @@
 - Encountered difficulties while configuring Nginx with UFW firewall rules
 - ebsite was not loading correctly when accessing the VM IP address in the browser
 - Need more clarity on debugging web server and network configuration issues
+>>>>>>> 562d33d96bced146846f1dbe62115821527edbac
