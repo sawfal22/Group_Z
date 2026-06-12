@@ -14,7 +14,6 @@
 
 **Blockers / Questions:**
 - Faced some issues while configuring Putty
-
 # Tuesday 12-05-2026
 ## Saksham
 **What I worked on:**
@@ -45,6 +44,7 @@
 **Blockers / Questions:**
 - Had issues while configuring Filezilla
 
+<<<<<<< HEAD
 # Tuesday 12-05-2026
 ## Jagadish
 
@@ -81,3 +81,4 @@
 **Blockers / Questions:**
 - Faced some issues while configuring FileZilla
 - Needed more understanding of connection and transfer settings in FileZilla
+
