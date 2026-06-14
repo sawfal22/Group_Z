@@ -33,3 +33,24 @@
 - Required additional clarification to better understand the database workflow and overall project structure.
 - Faced minor issues during configuration, which were resolved with assistance and further testing.
 
+# Thursday 04-06-2026
+## Jagadish
+**What I worked on:**
+- Continued Constrution of the Task Manager application using FastAPI and React
+- Changed UI styling with different headings, colors and tabs to improve usability and visualization.
+- Implemented SQLite database for storing tasks datas and records, and managed used DBeaver to manage and veiws those records.
+- Tested API endpoints with Swagger UI and completed previous  given exercises.
+- Pushed all the MVC components to github in the group.
+
+**What I learned:**
+- Learned more about MVC architecture, FastAPI routing, and REST API development
+- Improved my understanding of frontend-backend integration and API communication
+- Gained experience working with SQLite databse and database management tools like DBeaver.
+- Learned how to organize projects and maintained the architectural workflow.
+- how to push the MVC Lab components to github.
+
+**Blockers / Questions:**
+- Faced the challenges while implementing the SQLite database into the application.
+- Needed additional guidance to understand the database workflow and project structure.
+- Had some issue while configuration but solved with the assistance of Professor.
+
