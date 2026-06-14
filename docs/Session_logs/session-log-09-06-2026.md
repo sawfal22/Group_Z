@@ -32,3 +32,22 @@
 **Blockers / Questions:**
 - Needed further guidance on project organization standards and effective module structuring practices
 - Encountered challenges in identifying the best approach for extending functionality without affecting current system behavior
+
+# Tuesday 09-06-2026
+## Jagadish
+**What I worked on:**
+- Met with the professor and team members to finalize the project requirements, technology stack, and development workflow.
+- Defined the overall application structure and architecture to support future scalability and maintenance.
+- Explored approaches for adding new features without affecting existing routes or requiring frontend changes.
+- Analyzed how different application layers interact to ensure a smooth and organized development process.
+
+**What I learned:**
+- Gained knowledge of ORM concepts and how they simplify database operations through model-based interactions.
+- Reinforced my understanding of the MVC architecture and the separation of responsibilities between components.
+- Learned techniques for developing modular features that can be added or modified without impacting existing functionality.
+- Improvised my understanding of building maintainable and scalable applications with minimal code dependency issues.
+
+**Blockers / Questions:**
+- Needed additional guidance on the project's overall structure and recommended file organization practices.
+- Faced challenges in determining the best way to introduce new functionality while preserving existing behavior.
+- Discussed concerns with the professor and team members to establish a clear implementation strategy moving forward.
