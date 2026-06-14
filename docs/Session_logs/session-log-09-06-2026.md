@@ -16,3 +16,19 @@
 - Required additional clarification regarding the overall project structure and the best practices for organizing files and modules.
 - Faced some initial challenges understanding how to integrate new features without disrupting existing functionality.
 - Discussed these concerns with the professor and team members to establish a clear development strategy.
+
+# Tuesday 09-06-2026
+## Safal
+**What I worked on:**
+- Collaborated with the professor and project team to define the technology stack, development methodology, and implementation roadmap
+- Designed the overall project structure with a focus on modularity, maintainability, and future enhancements
+- Evaluated approaches for adding new functionality while preserving existing routes and ensuring no changes were required on the React frontend
+
+**What I learned:**
+- Gained knowledge of ORM concepts and how they streamline database interactions through object-based data management
+- Enhanced my understanding of the MVC architecture and the responsibilities of each layer within an application
+- Learned techniques for developing scalable features that minimize dependencies and reduce the impact of changes on existing components.
+
+**Blockers / Questions:**
+- Needed further guidance on project organization standards and effective module structuring practices
+- Encountered challenges in identifying the best approach for extending functionality without affecting current system behavior
