@@ -3,7 +3,7 @@
 **What I worked on:**
 - I connected my react frontend to the new FastAPI task endpoints.
 - Kept all fetch calls inside api.js for clean seperation.
-- Added a create from with the a text inout and Add button to post new tasks in App.jsx
+- Added a create form with the a text input and Add button to post new tasks in App.jsx
 - Also Added Delete button next to each task to call the delete endpoint.
 - Configured CORS in backend main.py to allow my frontend origin http://localhost:5173, so browser requests are not blocked.
 
