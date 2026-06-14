@@ -31,3 +31,25 @@
 
 **Blockers / Questions:**
 -  Had some typos while running the full integrated codes to show a output on the local host browser. 
+
+# Thursday 28-05-2026
+## Sameen
+**What I worked on:**
+- Set up the Full-Stack MVC Architecture Lab using React, FastAPI, and Docker.
+- Developed a task management application from scratch and gained a better understanding of the overall workflow and data flow between components.
+- Built the React frontend to support viewing, creating, updating, and deleting tasks.
+- Implemented the FastAPI backend with API endpoints, business logic, and task management operations.
+- Containerized the application using Docker to run the frontend and backend services in separate environments for development and testing.
+
+**What I learned:**
+- Learned how Docker enables smooth integration and communication between the frontend and backend components.
+- Improved my understanding of FastAPI architecture, including the Controller, Service, and Model/Repository layers.
+- Identified the Model, View, and Controller components within a real full-stack application and understood how they interact.
+- Learned that MVC promotes separation of concerns, making applications easier to extend, maintain, and test.
+- Gained experience building REST APIs and connecting them with a React frontend to perform CRUD operations.
+- Learned how Docker containerization provides consistency, portability, and easier environment management.
+
+**Blockers / Questions:**
+- Encountered some terminal errors and syntax mistakes while running the integrated application.
+- Faced a few issues displaying the application correctly on the localhost browser due to typos and configuration problems.
+- Required some troubleshooting to ensure all services were running and communicating properly.

@@ -44,7 +44,6 @@
 **Blockers / Questions:**
 - Had issues while configuring Filezilla
 
-<<<<<<< HEAD
 # Tuesday 12-05-2026
 ## Jagadish
 

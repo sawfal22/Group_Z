@@ -33,3 +33,24 @@
 **Blockers / Questions:**
 - Experienced difficulties displaying parts of the UI correctly during local development
 - Encountered an issue where service functions were not being recognized in App.jsx while implementing the create task feature 
+
+# Tuesday 02-06-2026
+## Sameen
+**What I worked on:**
+- Integrated the React frontend with the FastAPI task management endpoints and tested the communication between both applications.
+- Centralized all API requests inside api.js to maintain a clear separation between service logic and UI components.
+- Implemented a task creation form in App.jsx with a text input field and an Add button to send new tasks to the backend.
+- Added a Delete button for each task to remove items through the delete endpoint and refresh the task list automatically.
+- Configured CORS settings in main.py to allow requests from the frontend running at http://localhost:5173, ensuring smooth interaction between the frontend and backend.
+
+**What I learned:**
+- Learned how React applications communicate with FastAPI APIs through HTTP requests.
+- Improved my understanding of separating API logic from UI components by using a dedicated api.js file.
+- Gained experience creating task forms and implementing delete functionality in React.
+- Learned how to manage application state and re-fetch data so that the user interface always stays synchronized with the server.
+- Understood the importance of configuring CORS correctly to enable communication between different origins.
+
+**Blockers / Questions:**
+- Faced some issues with rendering parts of the UI correctly during local development.
+- Encountered a problem where service functions were not loading properly in App.jsx while implementing the create task feature.
+- Resolved the issue with guidance from the professor and successfully completed the integration.
