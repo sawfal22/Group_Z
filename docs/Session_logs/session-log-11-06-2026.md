@@ -35,6 +35,9 @@
 
 **Blockers / Questions:**
 - Required additional investigation into configuration settings to ensure long-term stability of stored application data
+<<<<<<< HEAD
+- Faced challenges validating interactions between newly added functionality and existing components, requiring further testing and refinement
+=======
 - Faced challenges validating interactions between newly added functionality and existing components, requiring further testing and refinement
 
 
@@ -58,3 +61,4 @@
 - Faced issues while configuring persistent database storage inside Docker containers.
 - Needed additional testing to verify that stored tasks remained available after multiple backend restarts.
 - Encountered minor ORM integration and import-related issues that required debugging and code restructuring.
+>>>>>>> 958e0732d926edc7a250852412d77864faaa4e0b
