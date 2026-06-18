@@ -22,15 +22,97 @@
 #                 return True
 #         return False
 
-from app.Repositories.task_repository import TaskRepository
 
+
+
+# class TaskService:
+#     def __init__(self, repo=None):
+#         self._repo = repo or TaskRepository()
+#     def list_tasks(self):
+#         return self._repo.all()
+#     def create_task(self, title):
+#         return self._repo.add(title)
+#     def delete_task(self, task_id):
+#         return self._repo.remove(task_id)
+
+from app.repositories.task_repository import TaskRepository
+# from app.services.task_service import TaskService
+ #from app.exceptions import TaskNotFoundException
+from app.repositories.user_repository import UserRepository
+
+class TaskNotFoundError(Exception):
+    pass
+class UserNotFoundError(Exception): ...
+
+# class TaskService:
+#     def __init__(self, repo=None):
+#         self._repo = repo or TaskRepository()
+
+#     def list_tasks(self):
+#         return self._repo.all()
+
+#     def create_task(self, title):
+#         return self._repo.add(title)
+
+#     def delete_task(self, task_id):
+#         return self._repo.remove(task_id)
+
+#     def get_task(self, task_id):
+#         task = self._repo.find(task_id)
+
+#         if task is None:
+#             raise TaskNotFoundError(task_id)
+#         return task
+
+
+
+
+    # def __init__(self, repo: TaskRepository):
+    #     self._repo = repo
+    # def list_tasks(self) -> 
+    #     ... # delegate to the repo
+
+    # def get_task(self, task_id: int):
+    #     """Return the task or raise TaskNotFoundError."""
+    #     ...
+    # def create_task(self, tittle: str):
+    #     """Strip the title: raise ValeuError if empty; otherwise add via repo."""
+    #     ...
+    # def delete_task(self, task_id: int) -> bool:
+    #     ... # delegate to the repo
+        # if self._users.find(owner_id) is None:
+        #     raise UserNotFoundError(owner_id)
+
+        # return self._tasks
 
 class TaskService:
-    def __init__(self, repo=None):
-        self._repo = repo or TaskRepository()
-    def list_tasks(self):
-        return self._repo.all()
-    def create_task(self, title):
-        return self._repo.add(title)
-    def delete_task(self, task_id):
-        return self._repo.remove(task_id)
+    def __init__(self, tasks: TaskRepository, users: UserRepository):
+        self._tasks = tasks
+        self._users = users
+
+
+    def list_tasks(self):        return self._tasks.all()
+
+    def get_task(self, tasl_id: int):
+        task = self._tasks.find(task_id)
+        if task is None:
+            raise TaskNotFoundError(task_id)
+        return task
+
+    # Modify create_task to accept and validate owner_id:
+    def create_task(self, title: str, owner_id: int):
+        # """
+        # Strip title; raise ValueError if empty.
+        # Look up the user; raise UserNotFoundError if missing.
+        # Delegate the insert to the repository.
+        # Hint: you'll need a way to find a user - add UserRepository or expose a method on TaskRepository,
+        # """
+        title = title.strip()
+        if not title:
+            raise ValueError("Title cannot be empty or whitespace")
+        if self._users.find(owner_id) is None:
+            raise UserNotFoundError(owner_id)
+        return self._tasks.add(title, owner_id)
+
+    def delete_task(self, task_id: int) -> bool:
+                return self._tasks.remove(task_id)
