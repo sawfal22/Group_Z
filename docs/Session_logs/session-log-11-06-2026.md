@@ -35,4 +35,30 @@
 
 **Blockers / Questions:**
 - Required additional investigation into configuration settings to ensure long-term stability of stored application data
+<<<<<<< HEAD
 - Faced challenges validating interactions between newly added functionality and existing components, requiring further testing and refinement
+=======
+- Faced challenges validating interactions between newly added functionality and existing components, requiring further testing and refinement
+
+
+# Thursday 11-06-2026
+## Jagadish
+**What I worked on:**
+- Continued integrating SQLAlchemy ORM into the Task Manager backend and connected it with the service and repository layers.
+- Implemented task creation, retrieval, and deletion operations and verified that they were accessible from the React interface.
+- Configured database persistence using Docker volumes so task records remain available after backend container restarts.
+- Refactored backend components to support the new functionality without requiring modifications to existing React pages or API routes.
+- Performed end-to-end testing between React, FastAPI, and the database to validate application behavior.
+
+**What I Learned:**
+- Gained a better understanding of how SQLAlchemy ORM manages database records through Python models.
+- Learned how dependency injection in FastAPI helps separate controllers, services, and repositories.
+- Improved my knowledge of connecting React frontend requests with FastAPI endpoints while maintaining clean architecture principles.
+- Learned how Docker volumes are used to preserve application data independently of container lifecycles.
+- Strengthened my debugging skills while tracing issues across the frontend, backend, and database layers.
+
+**Blockers / Questions:**
+- Faced issues while configuring persistent database storage inside Docker containers.
+- Needed additional testing to verify that stored tasks remained available after multiple backend restarts.
+- Encountered minor ORM integration and import-related issues that required debugging and code restructuring.
+>>>>>>> 958e0732d926edc7a250852412d77864faaa4e0b
