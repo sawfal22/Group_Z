@@ -13,3 +13,16 @@
 **Blockers / Questions:**
 - Was unable to complete the entire exercise due to implementation challenges.
 - Needed additional guidance on integrating the remaining authentication components.
+
+# Thursday 18-06-2026
+## Safal
+**What I worked on:**
+- Started building the login and authentication system for the application and completed the first part of the exercise
+- Explored how authentication fits into the existing FastAPI backend and tested the basic login functionality
+
+**What I learned:**
+- Learned the difference between authentication and authorization and why both are important
+- Gained a better understanding of how FastAPI handles user login and protects API routes
+
+**Blockers / Questions:**
+- Faced some issues completing the remaining authentication features and needed more time to debug and finish the implementation

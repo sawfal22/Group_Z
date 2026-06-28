@@ -15,3 +15,18 @@
 **Blockers / Questions:**
 - Encountered an issue where the React frontend was unable to load user data correctly.
 - Required additional debugging to identify the communication problem between the frontend and backend.
+
+# Tuesday 16-06-2026
+## Safal
+**What I worked on:**
+- Added PostgreSQL to the project and connected it with the FastAPI backend
+- Checked that the database connection was working correctly
+- Tested saving and loading data from the database
+
+**What I learned:**
+- Learned the basics of PostgreSQL and how it stores data 
+- Learned how to connect a FastAPI project to a database
+- Better understood how the backend reads and writes data
+
+**Blockers / Questions:**
+- The React frontend was not showing user data, so I needed to spend more time finding the problem

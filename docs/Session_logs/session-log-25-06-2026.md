@@ -13,3 +13,20 @@
 **Blockers / Questions:**
 - Encountered difficulties completing all requirements of the second exercise.
 - Needed additional debugging and guidance to resolve the remaining implementation issues.
+
+# Thursday 25-06-2026
+## Safal
+**What I worked on:**
+- Finished the first exercise and completed most of the second exercise
+- Continued developing the application's login and user access features
+- Checked the authentication process to make sure users could log in and access protected pages
+- Reviewed the backend code to ensure the authentication system was working as expected
+
+**What I learned:**
+- Learned more about how secure login systems verify user identities
+- Improved my understanding of managing user access through authentication and authorization
+- Gained more confidence working with authentication features in a FastAPI application
+- Better understood how protected endpoints help keep application data secure
+
+**Blockers / Questions:**
+- Faced a few problems while finishing the second exercise and needed extra debugging to resolve them
