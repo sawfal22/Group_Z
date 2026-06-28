@@ -1,135 +1,79 @@
-import { useEffect, useState } from "react";
-import { fetchTasks, createTask, deleteTask } from "./services/api";
-import styles from "./App.module.css";
-
+import { useEffect, useMemo, useState } from "react";
+import { fetchTasks, fetchUsers, createTask, deleteTask } from "./services/api";
+ 
 export default function App() {
-  const [tasks, setTasks] = useState([]);
-  const [title, setTitle] = useState("");
-  const [loading, setLoading] = useState(true);
-  const [busy, setBusy] = useState(false);
-  const [error, setError] = useState(null);
-
+  const [tasks, setTasks]       = useState([]);
+  const [users, setUsers]       = useState([]);
+  const [title, setTitle]       = useState("");
+  const [ownerId, setOwnerId]   = useState("");
+  const [loading, setLoading]   = useState(true);
+  const [busy, setBusy]         = useState(false);
+  const [error, setError]       = useState(null);
+ 
+  const usersById = useMemo(
+    () => Object.fromEntries(users.map(u => [u.id, u])),
+    [users]
+  );
+ 
   async function refresh() {
     try {
-      const data = await fetchTasks();
-      setTasks(data);
+      const [t, u] = await Promise.all([fetchTasks(), fetchUsers()]);
+      setTasks(t);
+      setUsers(u);
+      if (!ownerId && u.length) setOwnerId(String(u[0].id));
       setError(null);
-    } catch (e) {
-      setError(e.message);
-    }
+    } catch (e) { setError(e.message); }
   }
-
-  useEffect(() => {
-    refresh().finally(() => setLoading(false));
-  }, []);
-
+ 
+  useEffect(() => { refresh().finally(() => setLoading(false)); }, []);
+ 
   async function handleAdd(e) {
     e.preventDefault();
-    const t = title.trim();
-    if (!t) return;
+    if (!title.trim() || !ownerId) return;
     setBusy(true);
     try {
-      await createTask(t);
+      await createTask(title.trim(), Number(ownerId));
       setTitle("");
       await refresh();
-    } catch (e) {
-      setError(e.message);
-    } finally {
-      setBusy(false);
-    }
+    } catch (e) { setError(e.message); } finally { setBusy(false); }
   }
-
+ 
   async function handleDelete(id) {
     setBusy(true);
-    try {
-      await deleteTask(id);
-      await refresh();
-    } catch (e) {
-      setError(e.message);
-    } finally {
-      setBusy(false);
-    }
+    try { await deleteTask(id); await refresh(); }
+    catch (e) { setError(e.message); } finally { setBusy(false); }
   }
-
+ 
+  if (loading) return <div>Loading…</div>;
+ 
   return (
-    <div className={styles.page}>
-      <div className={styles.blobA} aria-hidden />
-      <div className={styles.blobB} aria-hidden />
-      <div className={styles.blobC} aria-hidden />
-
-      <main className={styles.card}>
-        <header className={styles.header}>
-          <h1 className={styles.title}>Tasks</h1>
-          <p className={styles.subtitle}>Minimal. Clear. Done.</p>
-        </header>
-
-        <form onSubmit={handleAdd} className={styles.form}>
-          <div className={styles.inputWrap}>
-            <input
-              value={title}
-              onChange={(e) => setTitle(e.target.value)}
-              placeholder="What needs doing?"
-              className={styles.input}
-              disabled={busy}
-              aria-label="New task title"
-            />
-          </div>
-          <button
-            type="submit"
-            className={styles.btn}
-            disabled={busy || !title.trim()}
-          >
-            Add
-          </button>
-        </form>
-
-        {error && (
-          <div className={styles.error} role="alert">
-            {error}
-          </div>
-        )}
-
-        {loading ? (
-          <div className={styles.loading} aria-busy="true">
-            <div className={styles.spinner} />
-            <span className={styles.loadingText}>Loading tasks…</span>
-          </div>
-        ) : tasks.length === 0 ? (
-          <div className={styles.empty}>
-            <span className={styles.emptyIcon} aria-hidden />
-            No tasks yet — add one above.
-          </div>
-        ) : (
-          <>
-            <ul className={styles.list}>
-              {tasks.map((t, i) => (
-                <li
-                  key={t.id}
-                  className={styles.item}
-                  style={{ "--delay": `${i * 0.06}s` }}
-                >
-                  <span className={styles.taskText}>
-                    <span className={styles.id}>#{t.id}</span>
-                    {t.title}
-                  </span>
-                  <button
-                    type="button"
-                    onClick={() => handleDelete(t.id)}
-                    className={styles.del}
-                    disabled={busy}
-                    aria-label={`Delete task ${t.title}`}
-                  >
-                    Delete
-                  </button>
-                </li>
-              ))}
-            </ul>
-            <p className={styles.count}>
-              {tasks.length} {tasks.length === 1 ? "task" : "tasks"}
-            </p>
-          </>
-        )}
-      </main>
+    <div style={{ maxWidth: 520, margin: "2rem auto", fontFamily: "system-ui" }}>
+      <h1>Tasks</h1>
+      <form onSubmit={handleAdd} style={{ display: "flex", gap: 8, marginBottom: 16 }}>
+        <input value={title} onChange={e => setTitle(e.target.value)}
+               placeholder="New task…" disabled={busy} style={{ flex: 1 }} />
+        <select value={ownerId} onChange={e => setOwnerId(e.target.value)} disabled={busy}>
+          {users.map(u => <option key={u.id} value={u.id}>{u.name}</option>)}
+        </select>
+        <button type="submit" disabled={busy || !title.trim()}>Add</button>
+      </form>
+ 
+      {error && <div style={{ color: "crimson" }}>Error: {error}</div>}
+ 
+      <ul style={{ listStyle: "none", padding: 0 }}>
+        {tasks.map(t => (
+          <li key={t.id} style={{ display: "flex", justifyContent: "space-between",
+                                  padding: "8px 0", borderBottom: "1px solid #eee" }}>
+            <span>
+              {t.title}{" "}
+              <small style={{ color: "#888" }}>
+                — {usersById[t.owner_id]?.name ?? "?"}
+              </small>
+            </span>
+            <button onClick={() => handleDelete(t.id)} disabled={busy}>Delete</button>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }
