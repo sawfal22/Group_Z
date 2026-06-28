@@ -1,4 +1,4 @@
-# Thursday 18-06-2026
+# Tuesday 16-06-2026
 ## Sameen
 **What I worked on:**
 - Completed the third project task by integrating PostgreSQL into the application.
@@ -30,3 +30,5 @@
 
 **Blockers / Questions:**
 - The React frontend was not showing user data, so I needed to spend more time finding the problem
+
+

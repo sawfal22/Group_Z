@@ -1,4 +1,4 @@
-# Thursday 23-06-2026
+# Tuesday 23-06-2026
 ## Sameen
 **What I worked on:**
 - Integrated authorization functionality into the backend application.
