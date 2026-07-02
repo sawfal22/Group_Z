@@ -26,3 +26,24 @@
 
 **Blockers / Questions:**
 - Faced some issues completing the remaining authentication features and needed more time to debug and finish the implementation
+
+# Thursday 18-06-2026
+## Jagadish
+
+**What I Worked On:**
+- Started implementing the authentication and authorization module in the backend application.
+- Began development of the login system and initial authentication flow in FastAPI.
+- Explored and understood how authentication integrates with existing backend architecture.
+- Implemented early-stage login functionality and tested basic authentication behavior.
+- Worked on structuring the foundation for secure API access and user management.
+
+**What I Learned**
+- Understood the core concepts of authentication (identity verification) and authorization (access control).
+- Learned how authentication systems are structured in a FastAPI backend.
+- Gained initial experience in implementing secure login functionality and protecting API endpoints.
+- Improved understanding of how backend components interact in authentication workflows.
+
+**Blockers/Questions:**
+- Full authentication flow was not yet completed and required further implementation in subsequent sessions.
+- Faced difficulties integrating all authentication components together within the backend structure.
+- Needed additional debugging and guidance to complete the remaining parts of the authentication system.

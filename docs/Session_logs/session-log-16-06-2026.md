@@ -31,4 +31,24 @@
 **Blockers / Questions:**
 - The React frontend was not showing user data, so I needed to spend more time finding the problem
 
+# Tuesday 16-06-2026
+## Jagadish
+**What I Worked On:**
+- Integrated PostgreSQL into the project and configured it as the primary database.
+- Established and verified the connection between PostgreSQL and the FastAPI backend.
+- Implemented database functionality for storing and retrieving application data.
+- Performed testing to ensure successful backend-to-database communication.
+- Completed project exercises related to database integration and persistence.
+- Conducted initial testing of data flow between the backend and frontend components.
 
+** What I Learned:**
+- Gained practical experience working with PostgreSQL in a full-stack application.
+- Improved understanding of database configuration and connection management in FastAPI.
+- Learned how CRUD operations are handled between the backend and a relational database.
+- Developed a better understanding of persistent data storage and retrieval mechanisms.
+- Enhanced debugging and troubleshooting skills for database-driven applications.
+
+**Blockers/Questions:**
+- The React frontend was unable to display user data correctly.
+- Suspected issues with API responses or frontend-backend communication required further investigation.
+- Additional debugging and testing are needed to identify and resolve the data rendering issue.
