@@ -25,9 +25,13 @@ class User(Base):
     # TODO: id - int, primary key.
     # Hint: mapped_column(primary_key=True)
     id: Mapped[int] = mapped_column(primary_key=True)
+    name: Mapped[str] = mapped_column(String(100), unique=True)
+
     
     # TODO: title - string, max length 200.
     #  Hint: mapped_column (String(200))
-    name: Mapped[str] = mapped_column(String(200))
+    # name: Mapped[str] = mapped_column(String(200))
 
+    
+    password_hash:Mapped[str] = mapped_column(String(200))
     tasks: Mapped[list["Task"]]= relationship(back_populates="owner")

@@ -9,10 +9,12 @@ from pydantic import BaseModel, ConfigDict, Field
 
 class TaskCreate(BaseModel):
     title: str = Field(..., min_lenght=1, max_lenght=200)
-    owner_id: int
+    # owner_id: int
+
+
 class Task(TaskCreate):
     id: int 
-    
+    model_config = ConfigDict(from_attributes=True)
 
 class User(BaseModel):
     id: int
