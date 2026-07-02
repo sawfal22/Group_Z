@@ -1,8 +1,8 @@
-"""initial
+"""add task.created_at
 
-Revision ID: c030b3ada3fb
-Revises: 
-Create Date: 2026-06-18 18:09:38.805273
+Revision ID: 89644f7537d5
+Revises: 9bf2dd8882d2
+Create Date: 2026-06-25 17:52:39.039184
 
 """
 from typing import Sequence, Union
@@ -12,8 +12,8 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision: str = 'c030b3ada3fb'
-down_revision: Union[str, Sequence[str], None] = None
+revision: str = '89644f7537d5'
+down_revision: Union[str, Sequence[str], None] = '9bf2dd8882d2'
 branch_labels: Union[str, Sequence[str], None] = None
 depends_on: Union[str, Sequence[str], None] = None
 
