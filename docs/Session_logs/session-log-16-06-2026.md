@@ -1,4 +1,4 @@
-# Thursday 18-06-2026
+# Thursday 16-06-2026
 ## Sameen
 **What I worked on:**
 - Completed the third project task by integrating PostgreSQL into the application.
