@@ -15,3 +15,21 @@
 **Blockers / Questions:**
 - No major blockers were encountered during the session.
 - Continued refining the application based on observations from testing and feedback received during the sprint review.
+
+# Thursday 09-07-2026
+## Saksham
+**What I worked on:**
+-Attended the Sprint Review for Group A and Group E, where each group showed off their project progress and got feedback from the professor
+-Reviewed the features that had been built, talked through possible improvements, and took note of the different development approaches other groups presented
+-Kept testing the implementations for Exercises 2, 3, and 4 to make sure everything was working correctly
+-Checked authentication, authorization, and task management functionality by running through different user scenarios and API endpoints
+
+**What I learned:**
+-Learned why Sprint Reviews matter for tracking project progress and gathering useful feedback for future work
+-Deepened my understanding of testing authentication, authorization, and CRUD operations in a full-stack application
+-Picked up new ideas by seeing how other groups approached their implementations
+-Strengthened my ability to identify and validate application functionality through systematic testing
+
+**Blockers / Questions:**
+-No major blockers during the session
+-Kept refining the application based on what came out of testing and the feedback from the sprint review

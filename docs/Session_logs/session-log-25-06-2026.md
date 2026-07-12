@@ -55,3 +55,18 @@
 - Initial complexity in understanding secure password hashing vs insecure approaches (plain text, fast hashes like SHA variants).
 - Required careful debugging of token generation and validation flow during integration with backend services.
 - Minor issues in aligning frontend token handling with backend authentication response structure, resolved through iterative testing.
+
+# Thursday 25-06-2026
+## Saksham
+**What I worked on:**
+- Finished the first exercise and made solid progress on the second
+-Continued implementing authentication and authorization features within the application
+-Tested user authentication workflows and confirmed protected routes were functioning as expected
+**What I learned:**
+- Strengthened my understanding of password management and authentication mechanisms
+-Learned how authentication ties into application workflows to secure user access
+-Deepened my knowledge of implementing secure login functionality within a FastAPI project
+
+**Blockers / Questions:**
+- Ran into some difficulty completing all the requirements of the second exercise
+-Needed extra debugging and guidance to work through the remaining implementation issues

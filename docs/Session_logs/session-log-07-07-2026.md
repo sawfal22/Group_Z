@@ -31,3 +31,22 @@
 **Blockers / Questions:**
 - No technical issues or pending clarifications arose during the testing process
 - The assigned implementation was successfully validated through testing
+
+# Thursday 07-07-2026
+## Saksham
+**What I worked on:**
+-Tested the implementations for Exercises 2, 3, and 4 to confirm all the features were working correctly
+-Ran application tests covering authentication, authorization, and task management functionality
+-Went through the application as a whole to make sure every completed exercise was working as it should
+
+**What I learned:**
+-Learned how to write and run tests for different parts of an application
+-Strengthened my understanding of how to validate backend functionality using systematic testing
+-Got hands-on practice testing authentication, authorization, and CRUD operations in the project
+-Recognized how important testing is for keeping an application reliable and catching regressions early
+
+
+
+**Blockers / Questions:**
+-No blockers or questions
+-All assigned exercises were finished successfully and the application worked as expected
