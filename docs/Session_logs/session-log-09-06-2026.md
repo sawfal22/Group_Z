@@ -51,3 +51,23 @@
 - Needed additional guidance on the project's overall structure and recommended file organization practices.
 - Faced challenges in determining the best way to introduce new functionality while preserving existing behavior.
 - Discussed concerns with the professor and team members to establish a clear implementation strategy moving forward.
+
+
+
+# Tuesday 09-06-2026
+## Saksham
+**What I worked on:**
+-Talked through the project requirements with the professor and team, and settled on the software stack, development approach, and overall workflow for the application
+-Planned out the project's architecture and structure with maintainability and scalability in mind
+-Looked into ways to organize new features and tasks so files could be added or changed without disrupting existing routes or touching the React frontend
+-Reviewed how the different parts of the application interact with each other to keep development running smoothly
+
+**What I learned:**
+-Learned about Object Relational Mapping (ORM) and how it simplifies database operations and managing data models
+-Built on my understanding of the MVC pattern and how it separates application logic, data handling, and presentation
+-Learned how to structure and stack new tasks and features in a way that makes it easier to create or rewrite files while keeping existing URLs working as before and leaving the React frontend untouched
+-Deepened my understanding of how to design applications that stay maintainable and minimize the impact of changes on other components
+
+**Blockers / Questions:**
+- Needed additional guidance on the project
+- Discussed concerns with the professor and team members to establish a clear implementation strategy moving forward.

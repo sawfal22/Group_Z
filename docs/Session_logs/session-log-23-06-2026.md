@@ -52,3 +52,17 @@
 ** Blockers/Questions:**
 - Encountered new issues during implementation and testing that required further debugging.
 - Additional investigation is needed to identify and resolve the newly discovered problems before proceeding with the next development phase.
+
+# Tuesday 23-06-2026
+## Saksham
+**What I worked on:**
+-Integrated authorization functionality into the backend application
+-Connected the PostgreSQL database with DBeaver to inspect and verify stored user records
+-Tested password storage and confirmed user credentials were being saved to the database successfully
+**What I learned:**
+-Learned how passwords are stored and managed securely within an application
+-Deepened my understanding of backend authorization and user management
+-Gained hands-on experience using DBeaver to inspect database tables and verify application data
+
+**Blockers / Questions:**
+- Ran into some new issues along the way

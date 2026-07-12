@@ -58,3 +58,27 @@
 - Faced issues while configuring persistent database storage inside Docker containers.
 - Needed additional testing to verify that stored tasks remained available after multiple backend restarts.
 - Encountered minor ORM integration and import-related issues that required debugging and code restructuring.
+
+
+# Thursday 11-06-2026
+## Saksham
+**What I worked on:**
+-Continued building on the ORM functionality from the previous session and expanded its use across the application
+-Added new features to the Task Manager app, implementing create, list, and delete operations through the React interface
+-Set up the application so task data persists across backend restarts using Docker Compose
+-Made sure all backend changes were integrated without needing any changes to the existing React frontend structure
+-Tested the application to confirm task operations and data persistence worked correctly even after container restarts
+
+**What I learned:**
+-Deepened my understanding of how ORM simplifies the interaction between application models and the database
+-Learned how to implement and wire up create, list, and delete functionality across React and FastAPI while keeping a clean separation of concerns
+-Gained experience setting up persistent storage so data survives Docker Compose backend restarts
+-Learned how to extend backend functionality while keeping the existing React frontend untouched and existing routes behaving as expected
+-Strengthened my understanding of how to integrate frontend and backend components in a maintainable full-stack setup
+
+
+
+**Blockers / Questions:**
+-Ran into some challenges setting up persistent storage for the database within Docker containers
+-Needed extra troubleshooting to make sure task data stayed available after restarting the backend service
+-Hit a few minor integration issues connecting the new functionality with the existing ORM setup, which got resolved through testing and debugging

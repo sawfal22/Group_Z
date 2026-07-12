@@ -52,3 +52,22 @@
 - The React frontend was unable to display user data correctly.
 - Suspected issues with API responses or frontend-backend communication required further investigation.
 - Additional debugging and testing are needed to identify and resolve the data rendering issue.
+
+
+# Tuesday 16-06-2026
+## Saksham
+**What I worked on:**
+-Wrapped up the third project task by integrating PostgreSQL into the application
+-Finished the fourth exercise and confirmed the database connection with the backend
+-Set up the project to use PostgreSQL for storing and retrieving application data
+-Tested the implementation to make sure the application was communicating properly with the database
+
+**What I learned:**
+-Learned how PostgreSQL works as a relational database management system
+-Gained hands-on experience integrating PostgreSQL into a FastAPI project
+-Deepened my understanding of configuring database connections and managing persistent data
+-Learned how backend services communicate with PostgreSQL during CRUD operations
+
+**Blockers / Questions:**
+-Ran into an issue where the React frontend wasn't loading user data correctly
+-Needed extra debugging to track down the communication problem between the frontend and backend

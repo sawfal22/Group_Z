@@ -47,3 +47,21 @@
 - Full authentication flow was not yet completed and required further implementation in subsequent sessions.
 - Faced difficulties integrating all authentication components together within the backend structure.
 - Needed additional debugging and guidance to complete the remaining parts of the authentication system.
+
+# Thursday 18-06-2026
+## Saksham
+**What I worked on:**
+-Started work on the authentication and authorization module for the application
+-Got partway through the first exercise by putting together the initial authentication flow
+-Looked into the project structure to understand how authentication ties into the existing backend components
+
+
+
+**What I learned:**
+-Learned the concepts of authentication and authorization and the roles they play in application security
+-Gained experience implementing authentication features in a FastAPI project
+-Deepened my understanding of protecting API endpoints and managing user access
+
+**Blockers / Questions:**
+-Couldn't finish the full exercise due to some implementation challenges
+-Needed more guidance on integrating the remaining authentication components

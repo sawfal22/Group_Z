@@ -54,3 +54,23 @@
 - Needed additional guidance to understand the database workflow and project structure.
 - Had some issue while configuration but solved with the assistance of Professor.
 
+
+# Thursday 04-06-2026
+## Saksham
+**What I worked on:**
+-Kept building out the Task Manager app using FastAPI on the backend and React on the frontend
+-Added some initial UI styling, set up SQLite for data storage, and used DBeaver to manage database records
+-Ran API endpoint tests through Swagger UI and wrapped up earlier exercises
+
+**What I learned:**
+
+-Deepened my knowledge of MVC architecture, how FastAPI handles routing, and general REST API design
+-Got a better grasp of how the frontend and backend communicate with each other
+-Picked up more hands-on experience with SQLite and database management tools
+
+
+**Blockers / Questions:**
+-Ran into some difficulties connecting the SQLite database to the application
+-Could use more guidance on the overall database workflow and how the project is structured
+
+
