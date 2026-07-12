@@ -1,7 +1,7 @@
+
 from app.repositories.task_repository import TaskRepository
 from app.repositories.user_repository import UserRepository
 from app.models import User
-
 class TaskNotFoundError(Exception):
     pass
 class UserNotFoundError(Exception):
@@ -22,9 +22,10 @@ class TaskService:
     def get_task(self, task_id: int, current_user: User):
         task = self._tasks.find(task_id)
         if task is None:
-            raise TaskNotFoundError(task_id)
+            raise TaskNotFoundError(task_id)                   
         if task.owner_id != current_user.id:
             raise NotAuthorizedError()
+        return task
 
     def create_task(self, title: str, current_user: User):
         title = title.strip()
