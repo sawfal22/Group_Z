@@ -54,3 +54,29 @@
 - Faced some issues with rendering parts of the UI correctly during local development.
 - Encountered a problem where service functions were not loading properly in App.jsx while implementing the create task feature.
 - Resolved the issue with guidance from the professor and successfully completed the integration.
+
+# Tuesday 02-06-2026
+## Shahid Afreed
+**What I Worked On:**
+- Tested the integration between the React frontend and FastAPI backend to ensure API endpoints were working correctly.
+- Improved the task list display by handling API responses more efficiently.
+- Refactored parts of the React components to improve code readability and maintainability.
+- Updated the API service functions in api.js to simplify communication with the backend.
+- Tested the create and delete task functionalities to verify proper database updates.
+- Fixed minor UI issues related to form input and task rendering.
+- Verified that the frontend automatically refreshes the task list after CRUD operations.
+- Reviewed the project structure and cleaned up unused code.
+
+**What I Learned:**
+- Gained a better understanding of frontend and backend integration using REST APIs.
+- Learned how reusable service functions improve code organization.
+- Improved my debugging skills by identifying and fixing API-related issues.
+- Learned how React state updates keep the UI synchronized with backend data.
+- Understood the workflow of testing API endpoints before integrating them into the frontend.
+
+**:Blockers / Questions:**
+Faced minor issues with API responses not updating the UI immediately.
+Encountered import errors while organizing service functions into separate files.
+Spent time debugging asynchronous requests and state updates.
+Resolved the issues through testing and guidance from the professor.
+No major blockers remained after completing the integration.
