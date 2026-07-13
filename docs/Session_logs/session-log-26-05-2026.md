@@ -175,3 +175,46 @@ Understood the importance of keeping applications simple, user-friendly, and acc
 - Though the products concept are good but it is not the actual new products which can have useful market.
 - I learned the different Digital tech can change the peoples life if implementated actively.
 
+
+# Tuesday 26-05-2026
+## Shahid Afreed
+
+**What I Worked On**
+- Collaborated with my team members to finalize the presentation structure and organize the content.
+- Presented the main concept of the project, including the identified problem, proposed solution, and the users who would benefit from the platform.
+- Explained the sprint planning approach, including how the product backlog was created and how tasks were assigned within the team.
+- Supported the team during the presentation by explaining technical and practical aspects of the project.
+- Participated in discussions about possible improvements and future development plans.
+
+**What I Learned**
+- Improved my communication and teamwork skills by working closely with my team during the presentation preparation.
+- Developed better confidence in explaining technical concepts to an audience.
+- Learned the importance of user-focused design when developing software solutions.
+- Improved my understanding of project planning, task distribution, and sprint management.
+- Gained experience answering questions and discussing project decisions during a presentation.
+
+**Blockers / Questions**
+- Currently reviewing the next steps of the project and discussing which features should be prioritized for future development.
+- Need to evaluate existing features and decide which improvements would provide the most value to users.
+
+**Project Overview:** 
+EcoConnect
+
+**Key Points**
+- EcoConnect is a platform designed to connect people with local volunteering and environmental activities.
+- The project addresses the difficulty users face in finding suitable volunteering opportunities and managing participation.
+- The platform helps users discover events, view important details, and communicate with organizers.
+- Future improvements include personalized recommendations, event notifications, and a volunteer activity tracking system.
+- The team also focused on creating a simple and accessible user experience.
+
+**What I Found Interesting**
+- I found the project interesting because it uses technology to encourage community participation and environmental awareness.
+- The idea of connecting volunteers and organizations through one platform provides a practical solution to a real-world issue.
+- The recommendation system feature was useful because it can help users find activities based on their interests.
+- The project showed how digital solutions can create positive social impact.
+
+**What I Learned**
+- Learned how technology can be used to improve community engagement and encourage social activities.
+- Understood the importance of designing applications that are simple, accessible, and user-friendly.
+- Observed effective methods for presenting project ideas and explaining system functionality.
+- Gained insights into developing solutions that focus on real user needs and practical problems.
