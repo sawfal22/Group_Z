@@ -53,3 +53,26 @@
 - Encountered some terminal errors and syntax mistakes while running the integrated application.
 - Faced a few issues displaying the application correctly on the localhost browser due to typos and configuration problems.
 - Required some troubleshooting to ensure all services were running and communicating properly.
+
+# Thursday 28-05-2026
+## Shahid Afreed
+
+**What I Worked On**
+- Worked on setting up the Full-Stack MVC Architecture project using React, FastAPI, and Docker.
+- Configured the frontend and backend environment to run the application locally.
+- Developed React components to display tasks and perform basic task management operations.
+- Worked on connecting the React frontend with FastAPI APIs to exchange task data between both applications.
+- Implemented backend API functionality for handling task-related operations and managing application data.
+- Used Docker to run the frontend and backend services separately and tested the complete application workflow.
+
+**What I Learned**
+- Gained a better understanding of how MVC architecture helps organize different parts of an application.
+- Learned how frontend and backend communicate through REST APIs in a full-stack application.
+- Improved my knowledge of building user interfaces with React and connecting them with FastAPI services.
+- Learned how Docker helps create isolated environments and makes application setup easier across different systems.
+- Improved my debugging skills while running and integrating multiple services together.
+
+**Blockers / Questions**
+Faced some difficulties while configuring the project environment and running the integrated application.
+Encountered minor errors related to configuration settings and code execution during local testing.
+Fixed the issues by reviewing the error messages, correcting the configurations, and successfully running the application.

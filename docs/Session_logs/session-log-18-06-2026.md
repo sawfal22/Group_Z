@@ -65,3 +65,23 @@
 **Blockers / Questions:**
 -Couldn't finish the full exercise due to some implementation challenges
 -Needed more guidance on integrating the remaining authentication components
+
+
+# Thursday 18-06-2026
+## Shahid Afreed
+**What I Worked On**
+- Started implementing the authentication and authorization features for the application.
+- Worked on the initial setup of the login flow and explored how user verification should be handled.
+- Reviewed the existing backend structure to understand how authentication connects with APIs and other components.
+- Began integrating authentication logic into the FastAPI project and tested the initial implementation.
+
+**What I Learned**
+- Developed a clearer understanding of the difference between authentication and authorization in web applications.
+- Learned how authentication mechanisms are implemented in a FastAPI backend.
+- Improved my knowledge of securing API endpoints and controlling user access.
+- Gained better insight into how security features are integrated with existing application components.
+
+**Blockers / Questions**
+- Was not able to complete the entire exercise because of some difficulties during the implementation phase.
+- Faced challenges while connecting all authentication components together.
+- Required additional guidance to complete the remaining parts of the authentication workflow.

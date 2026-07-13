@@ -70,3 +70,25 @@
 **Blockers / Questions:**
 - Ran into some difficulty completing all the requirements of the second exercise
 -Needed extra debugging and guidance to work through the remaining implementation issues
+
+
+# Thursday 25-06-2026
+## Shahid Afreed
+
+**What I Worked On**
+- Completed the first exercise and progressed through the majority of the second exercise in the Task Manager project.
+- Worked on implementing and testing the user login functionality and access control features.
+- Verified that authenticated users were able to access protected routes correctly.
+- Reviewed the backend authentication flow to understand how user credentials are handled and validated.
+- Tested different scenarios to check whether the authorization logic was working properly.
+
+**What I Learned**
+- Improved my understanding of how authentication systems verify users and manage secure access.
+- Learned how login functionality is connected with protected API endpoints in FastAPI.
+- Gained more practical experience working with user authentication and authorization concepts.
+- Understood the importance of protecting application resources by controlling user permissions.
+- Improved my debugging skills while working with backend security features.
+
+**Blockers / Questions**
+- Encountered some difficulties while completing the second exercise, mainly related to authentication setup and testing.
+- Needed additional debugging to identify the cause of the issues.

@@ -48,3 +48,24 @@
 **Blockers / Questions:**
 - Ran into an authorization issue where a user authenticated as Alice could still edit Bob's tasks
 -Needed further debugging to enforce proper access control and resource ownership
+
+# Tuesday 30-06-2026
+## Shahid Afreed
+**What I Worked On**
+- Completed Exercises 3 and 4 of the Task Manager project.
+- Implemented user authentication and tested protected API endpoints using Postman.
+- Connected the application database to DBeaver to verify user and task records.
+- Continued improving the authentication and authorization workflow in the backend.
+- Verified API functionality by testing different user scenarios and database updates.
+
+**What I Learned**
+- Strengthened my understanding of password hashing and user authentication in FastAPI.
+- Learned how to authenticate API requests using Postman and test protected endpoints.
+- Gained practical experience using DBeaver to inspect and validate database records.
+- Improved my understanding of implementing secure authentication and authorization in a FastAPI application.
+- Enhanced my knowledge of API testing and backend debugging techniques.
+
+**Blockers / Questions**
+- Encountered an authorization issue where a user authenticated as Alice could still edit Bob's tasks.
+- Investigated the resource ownership and permission logic to identify the cause of the issue.
+- Continued debugging the authorization workflow to ensure users can only modify their own tasks.

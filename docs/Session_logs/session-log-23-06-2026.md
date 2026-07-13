@@ -66,3 +66,24 @@
 
 **Blockers / Questions:**
 - Ran into some new issues along the way
+
+
+# Tuesday 23-06-2026
+## Shahid Afreed
+**What I Worked On**
+- Continued working on the backend security features by implementing authorization logic for controlling user access.
+- Tested the authentication and authorization flow to ensure users could access only the resources they were allowed to use.
+- Connected the PostgreSQL database with DBeaver to check stored user information and application records.
+- Verified that user credentials and related data were correctly saved and retrieved from the database.
+- Tested the communication between the backend, database, and authentication system to confirm everything was working together properly.
+
+**What I Learned**
+- Improved my understanding of how authorization controls user permissions and protects application resources.
+- Learned how secure password storage works and why sensitive information should not be stored as plain text.
+- Gained more practical experience with authentication and authorization implementation in FastAPI.
+- Learned how to use DBeaver for checking database tables and verifying backend data.
+- Better understood the connection between backend logic, database management, and application security.
+
+**Blockers / Questions**
+- Faced some issues while testing the authorization workflow and integrating different components.
+- Needed additional debugging to identify the source of the problems.
