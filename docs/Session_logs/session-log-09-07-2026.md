@@ -33,3 +33,23 @@
 **Blockers / Questions:**
 -No major blockers during the session
 -Kept refining the application based on what came out of testing and the feedback from the sprint review
+
+
+# Thursday 09-07-2026
+## Shahid Afreed
+**What I Worked On**
+- Participated in the Sprint Review sessions for Group A and Group E, where teams presented their current project progress and received feedback from the professor.
+- Observed different project implementations and discussed possible improvements based on the presented features.
+- Continued testing the completed exercises (Exercises 2, 3, and 4) to verify that the application was functioning correctly.
+- Tested authentication, authorization, and task management features by checking different user actions and API responses.
+- Reviewed the overall application workflow to identify any areas that could be improved.
+
+**What I Learned**
+- Understood the importance of Sprint Reviews for evaluating progress, receiving feedback, and planning future improvements.
+- Improved my understanding of testing full-stack application features such as authentication, authorization, and CRUD operations.
+- Gained new perspectives by observing how other teams structured and implemented their solutions.
+- Learned how systematic testing helps identify problems and ensure application reliability.
+- Improved my ability to analyze existing features and suggest possible enhancements.
+
+**Blockers / Questions**
+- No major blockers were faced during this session.

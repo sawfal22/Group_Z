@@ -76,9 +76,30 @@
 -Learned how to extend backend functionality while keeping the existing React frontend untouched and existing routes behaving as expected
 -Strengthened my understanding of how to integrate frontend and backend components in a maintainable full-stack setup
 
-
-
 **Blockers / Questions:**
 -Ran into some challenges setting up persistent storage for the database within Docker containers
 -Needed extra troubleshooting to make sure task data stayed available after restarting the backend service
 -Hit a few minor integration issues connecting the new functionality with the existing ORM setup, which got resolved through testing and debugging
+
+
+# Thursday 11-06-2026
+## Shahid Afreed
+**What I Worked On**
+- Continued working on integrating SQLAlchemy ORM into the Task Manager backend.
+- Connected the database models with the service and repository layers to improve backend structure.
+- Implemented and tested task operations such as creating, viewing, and deleting tasks through the application.
+- Configured Docker volumes to maintain database data even after restarting the backend container.
+- Tested the complete workflow between React frontend, FastAPI backend, and PostgreSQL database.
+- Made some backend code improvements to support the new database functionality while keeping the existing frontend structure unchanged.
+
+**What I Learned**
+- Improved my understanding of how SQLAlchemy ORM maps Python classes with database tables.
+- Learned how separating routes, services, and repositories helps maintain a cleaner backend architecture.
+- Gained more experience connecting frontend requests with backend APIs and database operations.
+- Understood the importance of Docker volumes for maintaining persistent data between container restarts.
+- Improved my debugging approach by tracking issues across different layers of the application.
+
+**Blockers / Questions**
+- Faced some difficulties while setting up database persistence using Docker volumes.
+- Encountered minor issues related to ORM configuration and imports during implementation.
+- Needed additional testing to confirm that task data remained stored correctly after restarting services.

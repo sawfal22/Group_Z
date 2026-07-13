@@ -71,3 +71,25 @@
 **Blockers / Questions:**
 - Needed additional guidance on the project
 - Discussed concerns with the professor and team members to establish a clear implementation strategy moving forward.
+
+
+
+# Tuesday 09-06-2026
+## Shahid Afreed
+**What I Worked On**
+- Discussed the project structure, technology stack, and development approach with the professor and team members.
+- Worked on planning the implementation strategy and organizing the application structure for better scalability.
+- Reviewed ways to add new features while keeping the existing functionality stable.
+- Focused on maintaining a modular design so that future updates can be added without affecting current components.
+- Analyzed how backend changes could be introduced without requiring major modifications to the React frontend.
+
+**What I Learned**
+- Improved my understanding of ORM concepts and how they simplify communication between applications and databases.
+- Learned more about MVC architecture and how separating different layers helps maintain cleaner code.
+- Gained knowledge about designing features in a way that reduces dependency between components.
+- Understood the importance of proper project structure for easier maintenance and future development.
+- Improved my ability to plan changes before implementation to avoid breaking existing functionality.
+
+**Blockers / Questions**
+Needed some clarification about recommended project organization practices and module structure.
+Faced challenges while deciding the best way to extend the application without affecting existing features.

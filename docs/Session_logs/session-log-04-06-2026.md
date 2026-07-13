@@ -74,3 +74,25 @@
 -Could use more guidance on the overall database workflow and how the project is structured
 
 
+
+# Thursday 04-06-2026
+## Shahid Afreed
+**What I Worked On**
+- Continued developing the Task Manager application using FastAPI and React.
+- Improved the frontend interface by updating the styling, adding different headings, colors, and tabs to make the application easier to use.
+- Integrated SQLite database functionality for storing task information and records.
+- Used DBeaver to view, manage, and verify the stored database records.
+- Tested backend API endpoints using Swagger UI to confirm that the implemented features were working correctly.
+- Completed the previously assigned exercises and pushed the MVC project components to the team GitHub repository.
+
+**What I Learned**
+- Improved my understanding of MVC architecture and how different application layers work together.
+- Gained more experience with FastAPI routing and developing REST APIs.
+- Learned how frontend and backend communicate through API requests in a full-stack application.
+- Improved my knowledge of SQLite database integration and using database management tools like DBeaver.
+- Learned how to organize project files properly and maintain a structured development workflow.
+- Gained experience in managing and sharing project code using GitHub.
+
+**Blockers / Questions**
+- Faced some difficulties while integrating SQLite into the application and connecting it with the backend.
+- Needed additional clarification about the database workflow and project structure.

@@ -71,3 +71,26 @@
 **Blockers / Questions:**
 -Ran into an issue where the React frontend wasn't loading user data correctly
 -Needed extra debugging to track down the communication problem between the frontend and backend
+
+
+
+# Tuesday 16-06-2026
+## Shahid Afreed
+**What I Worked On**
+- Completed the third task by adding PostgreSQL database integration to the application.
+- Finished the fourth exercise and tested the connection between the backend and database.
+- Configured the application to store and retrieve data using PostgreSQL instead of temporary storage.
+- Verified that backend operations were working correctly with the database during testing.
+- Checked the data flow between the application, backend services, and PostgreSQL.
+
+**What I Learned**
+- Improved my understanding of how PostgreSQL is used for managing structured application data.
+- Gained practical experience connecting a FastAPI backend with a relational database.
+- Learned how database configuration affects application functionality and data persistence.
+- Better understood how CRUD operations interact with the database layer.
+- Improved my knowledge of backend data management and database communication.
+
+**Blockers / Questions**
+- Faced an issue where the React frontend was not displaying user data properly.
+- Investigated the connection between frontend requests and backend responses to identify the problem.
+- Required additional debugging to fix the communication issue between frontend and backend components.
