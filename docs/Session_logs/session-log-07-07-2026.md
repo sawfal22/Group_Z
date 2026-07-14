@@ -50,3 +50,25 @@
 **Blockers / Questions:**
 -No blockers or questions
 -All assigned exercises were finished successfully and the application worked as expected
+
+
+
+# Thursday 07-07-2026
+## Shahid Afreed
+**What I Worked On**
+- Completed the final testing of Exercises 2, 3, and 4 to ensure all required features were working correctly.
+- Verified the authentication process, user authorization, and task management functionality by testing different user scenarios.
+- Checked that frontend actions produced the expected responses from the backend APIs.
+- Reviewed the completed modules to confirm they were functioning correctly and met the exercise requirements.
+- Performed additional testing to ensure the application behaved consistently without unexpected errors.
+
+**What I Learned**
+- Improved my understanding of validating application features through systematic testing.
+- Gained more experience testing authentication, authorization, and CRUD operations in a full-stack application.
+- Learned the importance of testing different user scenarios to ensure secure and reliable application behavior.
+- Enhanced my ability to identify and verify application functionality before completing development tasks.
+- Better understood how thorough testing contributes to software quality and system reliability.
+
+**Blockers / Questions**
+- No significant technical issues were encountered during the final testing phase.
+- All assigned exercises were successfully verified through functional testing.
