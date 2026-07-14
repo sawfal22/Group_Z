@@ -79,7 +79,7 @@ class TaskRepository:
     def __init__(self, db: Session):
         self._db = db
 
-    def all_of_user(self,owner_id:int) -> list[Task]:
+    def all_for_user(self,owner_id:int) -> list[Task]:
         return list(self._db.scalars(select(Task).where(Task.owner_id == owner_id)))
 
     def find(self, task_id: int) -> Task | None:
