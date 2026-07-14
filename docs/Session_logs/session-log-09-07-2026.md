@@ -53,3 +53,18 @@
 
 **Blockers / Questions**
 - No major blockers were faced during this session.
+
+# Thursday 09-07-2026
+## Safal
+**What I worked on:**
+- Joined the Sprint Review for Groups A and E to review project progress and professor feedback
+- Observed the different solutions and features implemented by other groups, while noting useful suggestions and ideas for improvement
+- Spent the remaining time testing Exercises 2, 3, and 4 by verifying authentication, authorization, and task management across different user scenarios
+
+**What I learned:**
+- Got a better understanding of how Sprint Reviews help teams improve their projects through feedback
+- Built more confidence in testing authentication, authorization, and CRUD features to make sure everything works correctly
+- Picked up new ideas from other groups and improved my skills in checking and validating application functionality
+
+**Blockers / Questions:**
+- There were no major issues during the session; I focused on making small improvements based on the testing outcomes and Sprint Review feedback
