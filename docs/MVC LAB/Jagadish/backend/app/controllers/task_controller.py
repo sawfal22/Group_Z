@@ -83,23 +83,29 @@ def get_task_service(tasks: TaskRepository = Depends(get_task_repo),
     return TaskService(tasks, users)
 
 @router.get("/", response_model=list[Task])
-def get_tasks(service: TaskService = Depends(get_task_service), user: User= Depends(get_current_user)) -> list[dict]:
+def get_tasks(user: User = Depends(get_current_user),
+              service: TaskService = Depends(get_task_service)):
     return service.list_tasks(user)
 
 @router.get("/{task_id}", response_model=Task)
-def get_task(task_id: int, service: TaskService = Depends(get_task_service)) -> list[dict]:
+def get_task(task_id: int,
+             user: User = Depends(get_current_user),
+              service: TaskService = Depends(get_task_service)):
     try:
-        return service.get_task(task_id)
-    except:
+        return service.get_task(task_id,user)
+    except TaskNotFoundError:
         raise HTTPException(status_code=404, detail="Task not found")
+    except NotAuthorizedError:
+        raise HTTPException(status_code=403, detail="Forbidden")
+    
 
 @router.post("/", response_model=Task, status_code=201)
 def create_task(payload: TaskCreate,
                 user: User = Depends(get_current_user), service: TaskService = Depends(get_task_service)):
     try:
         return service.create_task(payload.title, user)
-    except UserNotFoundError:
-        raise HTTPException(status_code=404, detail="User not found")
+    except ValueError as exc:
+        raise HTTPException(status_code=422, detail="str(exc)")
 
 @router.delete("/{task_id}", status_code=204)
 def delete_task(task_id: int, service: TaskService = Depends(get_task_service), user: User = Depends(get_current_user)):
