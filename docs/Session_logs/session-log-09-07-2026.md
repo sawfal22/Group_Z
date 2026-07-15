@@ -19,7 +19,7 @@
 # Thursday 09-07-2026
 ## Saksham
 **What I worked on:**
--Attended the Sprint Review for Group A and Group E, where each group showed off their project progress and got feedback from the professor
+- Attended the Sprint Review for Group A and Group E, where each group showed off their project progress and got feedback from the professor
 -Reviewed the features that had been built, talked through possible improvements, and took note of the different development approaches other groups presented
 -Kept testing the implementations for Exercises 2, 3, and 4 to make sure everything was working correctly
 -Checked authentication, authorization, and task management functionality by running through different user scenarios and API endpoints
