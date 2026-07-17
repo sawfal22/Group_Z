@@ -1,0 +1,105 @@
+# Thursday 11-06-2026
+## Sameen
+**What I worked on:**
+- Continued working on the ORM functionality implemented in the previous session and extended its usage within the application.
+- Added new functionalities to the Task Manager application and implemented create, list, and delete operations through the React user interface.
+- Configured the application so that task data persists even after restarting the backend using Docker Compose.
+- Ensured that all backend modifications were integrated without requiring any changes to the existing React frontend structure.
+- Tested the application to verify that task operations and data persistence worked correctly across container restarts.
+
+**What I learned:**
+- Improved my understanding of how ORM simplifies interactions between application models and the database.
+- Learned how to implement and connect create, list, and delete functionalities through React and FastAPI while maintaining a clean separation of concerns.
+- Gained experience in configuring persistent storage so that data survives Docker Compose backend restarts.
+- Learned how to extend backend functionality while ensuring that the existing React frontend remains untouched and existing routes continue to behave as expected.
+- Strengthened my understanding of integrating frontend and backend components in a maintainable full-stack architecture.
+
+**Blockers / Questions:**
+- Encountered some challenges while configuring persistent storage for the database within Docker containers.
+- Required additional troubleshooting to ensure that task data remained available after restarting the backend service.
+- Faced minor integration issues while connecting the new functionalities with the existing ORM setup, which were resolved through testing and debugging.
+
+# Thursday 11-06-2026
+## Safal
+**What I worked on:**
+- Enhanced the application's data management layer by refining how information is processed and stored throughout the system
+- Expanded the task handling capabilities and ensured users could interact with records efficiently through the web interface
+- Improved the deployment setup to maintain application data consistently across service restarts and environment changes
+- Verified system reliability by performing functional checks and validating that newly introduced features integrated smoothly with the existing application
+
+**What I learned:**
+- Developed a stronger understanding of designing backend components that promote code reusability and easier maintenance
+- Learned effective methods for connecting user-facing features with server-side functionality while preserving a clear separation of responsibilities
+- Gained practical experience in managing application state and storage within containerized development environments
+- Improved my knowledge of implementing enhancements in a way that minimizes disruption to existing modules and workflows
+
+**Blockers / Questions:**
+- Required additional investigation into configuration settings to ensure long-term stability of stored application data
+- Faced challenges validating interactions between newly added functionality and existing components, requiring further testing and refinement
+
+
+# Thursday 11-06-2026
+## Jagadish
+**What I worked on:**
+- Continued integrating SQLAlchemy ORM into the Task Manager backend and connected it with the service and repository layers.
+- Implemented task creation, retrieval, and deletion operations and verified that they were accessible from the React interface.
+- Configured database persistence using Docker volumes so task records remain available after backend container restarts.
+- Refactored backend components to support the new functionality without requiring modifications to existing React pages or API routes.
+- Performed end-to-end testing between React, FastAPI, and the database to validate application behavior.
+
+**What I Learned:**
+- Gained a better understanding of how SQLAlchemy ORM manages database records through Python models.
+- Learned how dependency injection in FastAPI helps separate controllers, services, and repositories.
+- Improved my knowledge of connecting React frontend requests with FastAPI endpoints while maintaining clean architecture principles.
+- Learned how Docker volumes are used to preserve application data independently of container lifecycles.
+- Strengthened my debugging skills while tracing issues across the frontend, backend, and database layers.
+
+**Blockers / Questions:**
+- Faced issues while configuring persistent database storage inside Docker containers.
+- Needed additional testing to verify that stored tasks remained available after multiple backend restarts.
+- Encountered minor ORM integration and import-related issues that required debugging and code restructuring.
+
+
+# Thursday 11-06-2026
+## Saksham
+**What I worked on:**
+-Continued building on the ORM functionality from the previous session and expanded its use across the application
+-Added new features to the Task Manager app, implementing create, list, and delete operations through the React interface
+-Set up the application so task data persists across backend restarts using Docker Compose
+-Made sure all backend changes were integrated without needing any changes to the existing React frontend structure
+-Tested the application to confirm task operations and data persistence worked correctly even after container restarts
+
+**What I learned:**
+-Deepened my understanding of how ORM simplifies the interaction between application models and the database
+-Learned how to implement and wire up create, list, and delete functionality across React and FastAPI while keeping a clean separation of concerns
+-Gained experience setting up persistent storage so data survives Docker Compose backend restarts
+-Learned how to extend backend functionality while keeping the existing React frontend untouched and existing routes behaving as expected
+-Strengthened my understanding of how to integrate frontend and backend components in a maintainable full-stack setup
+
+**Blockers / Questions:**
+-Ran into some challenges setting up persistent storage for the database within Docker containers
+-Needed extra troubleshooting to make sure task data stayed available after restarting the backend service
+-Hit a few minor integration issues connecting the new functionality with the existing ORM setup, which got resolved through testing and debugging
+
+
+# Thursday 11-06-2026
+## Shahid Afreed
+**What I Worked On**
+- Continued working on integrating SQLAlchemy ORM into the Task Manager backend.
+- Connected the database models with the service and repository layers to improve backend structure.
+- Implemented and tested task operations such as creating, viewing, and deleting tasks through the application.
+- Configured Docker volumes to maintain database data even after restarting the backend container.
+- Tested the complete workflow between React frontend, FastAPI backend, and PostgreSQL database.
+- Made some backend code improvements to support the new database functionality while keeping the existing frontend structure unchanged.
+
+**What I Learned**
+- Improved my understanding of how SQLAlchemy ORM maps Python classes with database tables.
+- Learned how separating routes, services, and repositories helps maintain a cleaner backend architecture.
+- Gained more experience connecting frontend requests with backend APIs and database operations.
+- Understood the importance of Docker volumes for maintaining persistent data between container restarts.
+- Improved my debugging approach by tracking issues across different layers of the application.
+
+**Blockers / Questions**
+- Faced some difficulties while setting up database persistence using Docker volumes.
+- Encountered minor issues related to ORM configuration and imports during implementation.
+- Needed additional testing to confirm that task data remained stored correctly after restarting services.
