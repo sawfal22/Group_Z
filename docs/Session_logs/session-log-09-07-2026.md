@@ -77,6 +77,7 @@
 - Completed Exercise 4 by adding authorization scenario tests for cases where a user attempts to access or delete another user’s task.
 - Confirmed that unauthorized requests return the expected 403 responses and that unauthenticated requests are rejected with 401.
 - Focused on validating the end-to-end behavior of the MVC backend across the controller, service, and repository layers.
+- Attended the Sprint Review session for Group A and Group E, where each group demonstrated their project progress and received feedback from the professor.
 
 **What I learned:**
 - Learned how integration tests help verify the full API flow rather than only isolated service methods.
