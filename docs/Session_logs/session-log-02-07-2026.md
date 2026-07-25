@@ -53,3 +53,24 @@
 - Faced minor authentication and token validation issues during testing.
 - Resolved the issues through debugging and verification of the authentication workflow.
 - Successfully completed all tasks for Exercise 4 with no remaining blockers.
+
+
+# Thursday 02-07-2026
+## Jagadish Pudasaini
+
+**What I Worked On**
+- Completed Exercises by fixing authorization issues.
+- Reviewed and improved the authentication flow to ensure protected routes correctly validating user identity.
+- Verified JWT token generation, decoding, and validation using jwt.io.
+- Tested API access control with different user scenarios to confirm correct permission handling.
+- Performed end-to-end testing to ensure authentication, authorization, and task ownership rules worked as expected.
+
+**What I Learned**
+- Strengthened user access control by validating authenticated users before allowing protected operations.
+- Verified JWT-based security implementation between frontend requests and backend API endpoints.
+- Debugged authentication workflow issues related to token validation and user permissions.
+- Confirmed that unauthorized users cannot access or modify restricted resources.
+
+** Blockers/ Questions**
+- Fixed remaining authorization inconsistencies during user-based task operations.
+- Resolved token validation and access control issues identified during testing.
