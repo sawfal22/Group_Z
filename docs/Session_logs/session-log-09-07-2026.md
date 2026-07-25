@@ -68,3 +68,22 @@
 
 **Blockers / Questions:**
 - There were no major issues during the session; I focused on making small improvements based on the testing outcomes and Sprint Review feedback
+
+# Thursday 09-07-2026
+## Jagadish
+**What I worked on:**
+- Completed Exercise 3 by writing integration tests with TestClient to validate the task API endpoints.
+- Verified task creation, retrieval, and deletion flows through the FastAPI application using the existing pytest infrastructure.
+- Completed Exercise 4 by adding authorization scenario tests for cases where a user attempts to access or delete another user’s task.
+- Confirmed that unauthorized requests return the expected 403 responses and that unauthenticated requests are rejected with 401.
+- Focused on validating the end-to-end behavior of the MVC backend across the controller, service, and repository layers.
+
+**What I learned:**
+- Learned how integration tests help verify the full API flow rather than only isolated service methods.
+- Understood the importance of testing authorization through actual request paths rather than relying solely on unit-level assertions.
+- Improved my approach to combining unit tests and integration tests to cover both business logic and API behavior.
+- Gained more confidence in validating secure access control within a backend application.
+
+**Blockers / Questions:**
+- No major blockers were encountered during this session.
+- The main focus was refining the test cases and confirming that the API returned the correct responses for valid and unauthorized access patterns.

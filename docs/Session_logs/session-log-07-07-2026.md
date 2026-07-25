@@ -50,3 +50,22 @@
 **Blockers / Questions:**
 -No blockers or questions
 -All assigned exercises were finished successfully and the application worked as expected
+
+# Thursday 07-07-2026
+## Jagadish
+**What I worked on:**
+- Set up the pytest test infrastructure for the MVC backend by creating reusable fixtures for database sessions, authenticated users, and the FastAPI test client.
+- Implemented the initial test structure for the task application to enable isolated and repeatable test execution.
+- Completed Exercise 1 by establishing a reliable testing environment for the application.
+- Completed Exercise 2 by writing unit tests for the task service using fake repositories instead of the real database layer.
+- Covered core service behaviors including listing only the current user’s tasks, trimming whitespace from titles, rejecting empty titles, and enforcing ownership rules for get and delete operations.
+
+**What I learned:**
+- Learned how to structure pytest tests around fixtures and dependency injection for FastAPI-based applications.
+- Understood the value of fake repositories for validating business logic without depending on a real database.
+- Improved my understanding of testing task ownership and validation rules at the service layer.
+- Recognized that a well-defined test infrastructure makes later testing work more maintainable and efficient.
+
+**Blockers / Questions:**
+- The MVC implementation initially contained placeholder logic and incomplete wiring, which made test execution more challenging.
+- These issues were resolved by aligning the service, repository, and test setup so the intended behavior could be exercised properly.
