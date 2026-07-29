@@ -15,7 +15,7 @@ _A web app that supports international students in Germany by guiding them throu
 
 ## Project Overview
 
-_The International Student Assistant (Germany) is a web-based platform designed to help international students navigate essential steps when studying and living in Germany. It provides a centralized system where users can explore universities and courses, understand accommodation options and average rents, and follow step-by-step guides for important administrative processes such as visa extensions, city registration (Anmeldung), bank account setup, and SIM card activation.
+The International Student Assistant (Germany) is a web-based platform designed to help international students navigate essential steps when studying and living in Germany. It provides a centralized system where users can explore universities and courses, understand accommodation options and average rents, and follow step-by-step guides for important administrative processes such as visa extensions, city registration (Anmeldung), bank account setup, and SIM card activation.
 
 ## Architecture
 
