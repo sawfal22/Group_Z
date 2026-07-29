@@ -16,7 +16,7 @@ import { universities } from "@/lib/data/universities";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Study in Germany — Studieren.de" },
+      { title: "International Student Assistant" },
       {
         name: "description",
         content:
