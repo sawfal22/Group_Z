@@ -10,6 +10,8 @@ _A web app that supports international students in Germany by guiding them throu
 | Product Owner | Safal Karki |
 | Scrum Master | Sameen |
 | Developer |Saksham  Bikram Shah|
+| Scrum Master | Sameen Shrestha|
+| Developer |Saksham |
 | Developer | Jagadish |
 | Developer | Shahid |
 
