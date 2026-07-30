@@ -4,7 +4,11 @@
 - Attended the Sprint Review session for Group A and Group E, where each group demonstrated their project progress and received feedback from the professor.
 - Reviewed the implemented features, discussed project improvements, and observed different development approaches presented during the sprint review.
 - Continued testing the implementations of Exercises 2, 3, and 4 to ensure all functionalities were working correctly.
+<<<<<<< HEAD
 - Verified authentication, authorization, and task management features by testing different user scenarios and API endpoints.
+=======
+- Verified authentication, authorization, and task management features by testing different user scenarios and API endpoints. All updates.
+>>>>>>> 539b0bf44181ca2d677fea650d32e8fcc73f087c
 
 **What I learned:**
 - Learned the importance of Sprint Reviews in evaluating project progress and gathering constructive feedback for future improvements.
@@ -53,3 +57,39 @@
 
 **Blockers / Questions**
 - No major blockers were faced during this session.
+- No major blockers were faced during this session.
+
+# Thursday 09-07-2026
+## Safal
+**What I worked on:**
+- Joined the Sprint Review for Groups A and E to review project progress and professor feedback
+- Observed the different solutions and features implemented by other groups, while noting useful suggestions and ideas for improvement
+- Spent the remaining time testing Exercises 2, 3, and 4 by verifying authentication, authorization, and task management across different user scenarios
+
+**What I learned:**
+- Got a better understanding of how Sprint Reviews help teams improve their projects through feedback
+- Built more confidence in testing authentication, authorization, and CRUD features to make sure everything works correctly
+- Picked up new ideas from other groups and improved my skills in checking and validating application functionality
+
+**Blockers / Questions:**
+- There were no major issues during the session; I focused on making small improvements based on the testing outcomes and Sprint Review feedback
+
+# Thursday 09-07-2026
+## Jagadish
+**What I worked on:**
+- Completed Exercise 3 by writing integration tests with TestClient to validate the task API endpoints.
+- Verified task creation, retrieval, and deletion flows through the FastAPI application using the existing pytest infrastructure.
+- Completed Exercise 4 by adding authorization scenario tests for cases where a user attempts to access or delete another user’s task.
+- Confirmed that unauthorized requests return the expected 403 responses and that unauthenticated requests are rejected with 401.
+- Focused on validating the end-to-end behavior of the MVC backend across the controller, service, and repository layers.
+- Attended the Sprint Review session for Group A and Group E, where each group demonstrated their project progress and received feedback from the professor.
+
+**What I learned:**
+- Learned how integration tests help verify the full API flow rather than only isolated service methods.
+- Understood the importance of testing authorization through actual request paths rather than relying solely on unit-level assertions.
+- Improved my approach to combining unit tests and integration tests to cover both business logic and API behavior.
+- Gained more confidence in validating secure access control within a backend application.
+
+**Blockers / Questions:**
+- No major blockers were encountered during this session.
+- The main focus was refining the test cases and confirming that the API returned the correct responses for valid and unauthorized access patterns.

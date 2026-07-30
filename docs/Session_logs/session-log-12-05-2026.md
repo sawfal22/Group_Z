@@ -44,6 +44,10 @@
 **Blockers / Questions:**
 - Had issues while configuring Filezilla
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 539b0bf44181ca2d677fea650d32e8fcc73f087c
 # Tuesday 12-05-2026
 ## Jagadish
 

@@ -69,3 +69,29 @@
 - Encountered an authorization issue where a user authenticated as Alice could still edit Bob's tasks.
 - Investigated the resource ownership and permission logic to identify the cause of the issue.
 - Continued debugging the authorization workflow to ensure users can only modify their own tasks.
+- Continued debugging the authorization workflow to ensure users can only modify their own tasks.
+
+
+# Tuesday 30-06-2026
+## Jagadish Pudasaini
+** What I Worked On**
+- Completed Exercises  of the Authorization and Authentication project focusing on protected routes and authorization.
+- Implemented JWT-based authentication to secure backend API endpoints and restrict access to authenticated users.
+- Added current user validation using authentication dependencies to identify the logged-in user.
+- Tested protected API routes using Postman by sending authenticated requests and verifying access control.
+- Connected the application database with DBeaver to inspect and verify user and task records.
+- Improved task authorization by linking tasks with their owners and ensuring users can only access their own resources.
+- Updated the backend workflow to strengthen authentication and authorization handling within the FastAPI application.
+
+**What I Learned**
+- Improved understanding of the difference between authentication (verifying user identity) and authorization (controlling user permissions).
+- Learned how JWT tokens are used to authenticate API requests and protect backend routes.
+- Gained practical experience implementing user-based access control in FastAPI.
+- Learned how to validate protected endpoints using Postman and debug authentication-related issues.
+- Improved database inspection skills by using DBeaver to verify stored user and task data.
+- Understood the importance of resource ownership checks to prevent unauthorized modification of other users' data.
+
+**Blockers/Challenges**
+- Encountered an authorization issue where a user authenticated as Alice was able to edit Bob's tasks.
+- Debugged the task ownership validation logic to ensure users can only modify resources assigned to their own account.
+- Required additional testing between backend authentication logic and database records to confirm correct access control behavior.
