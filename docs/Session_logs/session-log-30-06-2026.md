@@ -69,7 +69,10 @@
 - Encountered an authorization issue where a user authenticated as Alice could still edit Bob's tasks.
 - Investigated the resource ownership and permission logic to identify the cause of the issue.
 - Continued debugging the authorization workflow to ensure users can only modify their own tasks.
+<<<<<<< HEAD
 - Continued debugging the authorization workflow to ensure users can only modify their own tasks.
+=======
+>>>>>>> 374e116fc6d19887fd2e8434e056bbb4d921a2e1
 
 
 # Tuesday 30-06-2026
@@ -94,4 +97,8 @@
 **Blockers/Challenges**
 - Encountered an authorization issue where a user authenticated as Alice was able to edit Bob's tasks.
 - Debugged the task ownership validation logic to ensure users can only modify resources assigned to their own account.
+<<<<<<< HEAD
 - Required additional testing between backend authentication logic and database records to confirm correct access control behavior.
+=======
+- Required additional testing between backend authentication logic and database records to confirm correct access control behavior.
+>>>>>>> 374e116fc6d19887fd2e8434e056bbb4d921a2e1

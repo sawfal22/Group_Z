@@ -9,13 +9,22 @@ _A web app that supports international students in Germany by guiding them throu
 |---|---|
 | Product Owner | Safal Karki |
 | Scrum Master | Sameen |
+<<<<<<< HEAD
+=======
+| Developer |Saksham  Bikram Shah|
+| Scrum Master | Sameen Shrestha|
+>>>>>>> 374e116fc6d19887fd2e8434e056bbb4d921a2e1
 | Developer |Saksham |
 | Developer | Jagadish |
 | Developer | Shahid |
 
 ## Project Overview
 
+<<<<<<< HEAD
 _The International Student Assistant (Germany) is a web-based platform designed to help international students navigate essential steps when studying and living in Germany. It provides a centralized system where users can explore universities and courses, understand accommodation options and average rents, and follow step-by-step guides for important administrative processes such as visa extensions, city registration (Anmeldung), bank account setup, and SIM card activation.
+=======
+The International Student Assistant (Germany) is a web-based platform designed to help international students navigate essential steps when studying and living in Germany. It provides a centralized system where users can explore universities and courses, understand accommodation options and average rents, and follow step-by-step guides for important administrative processes such as visa extensions, city registration (Anmeldung), bank account setup, and SIM card activation.
+>>>>>>> 374e116fc6d19887fd2e8434e056bbb4d921a2e1
 
 ## Architecture
 

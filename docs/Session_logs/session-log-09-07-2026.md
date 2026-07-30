@@ -5,10 +5,14 @@
 - Reviewed the implemented features, discussed project improvements, and observed different development approaches presented during the sprint review.
 - Continued testing the implementations of Exercises 2, 3, and 4 to ensure all functionalities were working correctly.
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Verified authentication, authorization, and task management features by testing different user scenarios and API endpoints.
 =======
 - Verified authentication, authorization, and task management features by testing different user scenarios and API endpoints. All updates.
 >>>>>>> 539b0bf44181ca2d677fea650d32e8fcc73f087c
+=======
+- Verified authentication, authorization, and task management features by testing different user scenarios and API endpoints. All updates.
+>>>>>>> 374e116fc6d19887fd2e8434e056bbb4d921a2e1
 
 **What I learned:**
 - Learned the importance of Sprint Reviews in evaluating project progress and gathering constructive feedback for future improvements.
@@ -57,7 +61,10 @@
 
 **Blockers / Questions**
 - No major blockers were faced during this session.
+<<<<<<< HEAD
 - No major blockers were faced during this session.
+=======
+>>>>>>> 374e116fc6d19887fd2e8434e056bbb4d921a2e1
 
 # Thursday 09-07-2026
 ## Safal

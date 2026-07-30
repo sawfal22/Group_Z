@@ -73,4 +73,8 @@
 
 ** Blockers/ Questions**
 - Fixed remaining authorization inconsistencies during user-based task operations.
+<<<<<<< HEAD
 - Resolved token validation and access control issues identified during testing.
+=======
+- Resolved token validation and access control issues identified during testing.
+>>>>>>> 374e116fc6d19887fd2e8434e056bbb4d921a2e1
