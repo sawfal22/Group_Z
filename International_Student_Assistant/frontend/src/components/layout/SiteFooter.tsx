@@ -121,13 +121,12 @@ export function SiteFooter() {
       <div className="border-t border-white/20">
         <div className="container-page flex flex-col items-center justify-between gap-3 py-6 text-xs text-white/70 sm:flex-row">
           <div>
-            © {new Date().getFullYear()} International Student Assistance —
+            © {new Date().getFullYear()} International Student Assistant —
             Final year project.
           </div>
 
           <div>
-            Data curated from public sources; verify with the official
-            institution.
+            Gropu Z.
           </div>
         </div>
       </div>

@@ -8,72 +8,88 @@ _A web app that supports international students in Germany by guiding them throu
 | Role | Name |
 |---|---|
 | Product Owner | Safal Karki |
-| Scrum Master | Sameen |
-<<<<<<< HEAD
-=======
-| Developer |Saksham  Bikram Shah|
-| Scrum Master | Sameen Shrestha|
->>>>>>> 374e116fc6d19887fd2e8434e056bbb4d921a2e1
-| Developer |Saksham |
-| Developer | Jagadish |
-| Developer | Shahid |
+| Scrum Master | Sameen Shrestha |
+| Developer | Saksham Bikram Sha |
+| Developer | Jagadish Pudasaini |
+| Developer | Shahid Afreed Fajarudheen |
 
 ## Project Overview
 
-<<<<<<< HEAD
 _The International Student Assistant (Germany) is a web-based platform designed to help international students navigate essential steps when studying and living in Germany. It provides a centralized system where users can explore universities and courses, understand accommodation options and average rents, and follow step-by-step guides for important administrative processes such as visa extensions, city registration (Anmeldung), bank account setup, and SIM card activation.
-=======
-The International Student Assistant (Germany) is a web-based platform designed to help international students navigate essential steps when studying and living in Germany. It provides a centralized system where users can explore universities and courses, understand accommodation options and average rents, and follow step-by-step guides for important administrative processes such as visa extensions, city registration (Anmeldung), bank account setup, and SIM card activation.
->>>>>>> 374e116fc6d19887fd2e8434e056bbb4d921a2e1
 
 ## Architecture
 
-_Add your architecture diagram here (C4 Context or Container diagram). Update this as the project evolves._
+<img src="/img/Architecture_Diagram.jpg" alt="International Student Assistant Architecture Diagram" width="500">
 
 ```
-service-a  ──►  service-b
-    │
-    ▼
-  database
+frontend  ──►  backend
+                  │
+                  ▼
+                database
 ```
 
 ## Tech Stack
 
 | Layer | Technology |
 |---|---|
-| Frontend |HTML,CSS,SASS,JS |
-| Backend |PHP + LMS SOFTWARE |
-| Database |MySQL |
-| Deployment |Shared Hosting via HostPapa (sub-domain)|
+| Frontend | React JS, Vite, Tailwind, TypeScript |
+| Backend | Supabase + PostgreSQL +  Docker |
+| Database | MySPostgreSQL |
+| Deployment | Local Hosting |
 
 ## Getting Started
 
 ### Prerequisites
 
-- [Docker](https://docs.docker.com/get-docker/) and Docker Compose installed
+- [Docker](https://docs.docker.com/get-docker/)
 - Git
 
 ### Run locally
 
 ```bash
 git clone https://github.com/sawfal22/Group_Z.git
-cd <Group_Z>
-cp .env.example .env   # fill in your values
-docker compose up --build
+cd Group_Z
+
+Run Docker
+
+For backend:
+- Open a new terminal then:
+- cd backend
+- npx supabase start
+
+For frontend:
+- Open a new terminal then:
+- cd backend
+- npm install
+- npm run dev
 ```
 
-The app will be available at `http://localhost:3000`.
+The app will be available at `http://localhost:5173`.
 
 ## Repository Structure
 
 ```
 ├── README.md
-├── .gitignore
+├── package.json
+├── vite.config.ts
+├── tsconfig.json
+├── tailwind.config.*
+├── .env.example
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── routes/
+│   ├── services/
+│   ├── lib/
+│   ├── data/
+│   └── assets/
+├── public/
 ├── docs/
-│   └── vision.md            # Product vision, personas, user stories
-├── services/
-│   ├── service-a/           # First microservice
-│   └── service-b/           # Second microservice
+│   ├── vision.md
+│   ├── Personas.md
+│   ├── Scenarios.md
+│   ├── User-Stories.md
+│   └── Group-Debrief.md
 └── docker-compose.yml
 ```
 

@@ -21,7 +21,7 @@ import {
 export const Route = createFileRoute("/universities")({
   head: () => ({
     meta: [
-      { title: "German Universities Directory — Studieren.de" },
+      { title: "German Universities Directory — International Student Assistant" },
       {
         name: "description",
         content:

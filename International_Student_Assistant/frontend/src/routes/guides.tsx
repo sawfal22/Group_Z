@@ -9,7 +9,7 @@ export const Route = createFileRoute("/guides")({
   head: () => ({
     meta: [
       {
-        title: "Student Guides for Germany — Studieren.de",
+        title: "Student Guides for Germany — International Student Assistant",
       },
       {
         name: "description",
