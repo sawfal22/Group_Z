@@ -13,8 +13,8 @@ export const Route = createFileRoute("/auth")({
   }),
   head: () => ({
     meta: [
-      { title: "Sign in — Studieren.de" },
-      { name: "description", content: "Sign in or create a free Studieren.de account." },
+      { title: "Sign in — About International Student Assistant" },
+      { name: "description", content: "Sign in or create a free International Student Assistant account." },
     ],
   }),
   component: AuthPage,

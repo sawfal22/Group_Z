@@ -36,7 +36,7 @@ export function SiteHeader() {
         <Link to="/" className="ml-4 flex min-w-0 items-center">
           <img
             src="/isa-logo.svg"
-            alt="International Student Assistance"
+            alt="International Student Assistant"
             className="h-20 w-auto max-w-[260px] object-contain"
           />
         </Link>

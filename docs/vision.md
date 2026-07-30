@@ -96,10 +96,15 @@ _List the core features your product must have for a working MVP._
 
 ## Wireframes / Sketches
 
-<img src="/img/ISA_Wireframe.png" alt="International Student Assistant Wireframe" width="500">
+<img src="/img/Landing_Page.jpeg" alt="Univerisity Page Wireframe" width="500">
+<img src="/img/University_Page.jpeg" alt="Univerisity Page Wireframe" width="500">
+<img src="/img/Accomodation.jpeg" alt="Univerisity Page Wireframe" width="500">
+<img src="/img/Student_Guides.jpeg" alt="Univerisity Page Wireframe" width="500">
+<img src="/img/German_Language.jpeg" alt="Univerisity Page Wireframe" width="500">
+<img src="/img/About.jpeg" alt="Univerisity Page Wireframe" width="500">
 
 ---
 
 ## Out of Scope (v1)
 
-_Things you are explicitly NOT building in this course._
+- [User Whislist] 

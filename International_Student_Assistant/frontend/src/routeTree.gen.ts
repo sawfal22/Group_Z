@@ -10,7 +10,6 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
-import { Route as AuthenticatedRouteRouteImport } from './routes/_authenticated/route'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as AccommodationRouteImport } from './routes/accommodation'
 import { Route as AuthRouteImport } from './routes/auth'
@@ -18,16 +17,10 @@ import { Route as GermanLanguageRouteImport } from './routes/german-language'
 import { Route as GuidesRouteImport } from './routes/guides'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as UniversitiesRouteImport } from './routes/universities'
-import { Route as AuthenticatedSavedRouteImport } from './routes/_authenticated/saved'
-import { Route as AuthenticatedAccommodationPostRouteImport } from './routes/_authenticated/accommodation/post'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const AuthenticatedRouteRoute = AuthenticatedRouteRouteImport.update({
-  id: '/_authenticated',
   getParentRoute: () => rootRouteImport,
 } as any)
 const AboutRoute = AboutRouteImport.update({
@@ -65,17 +58,6 @@ const UniversitiesRoute = UniversitiesRouteImport.update({
   path: '/universities',
   getParentRoute: () => rootRouteImport,
 } as any)
-const AuthenticatedSavedRoute = AuthenticatedSavedRouteImport.update({
-  id: '/saved',
-  path: '/saved',
-  getParentRoute: () => AuthenticatedRouteRoute,
-} as any)
-const AuthenticatedAccommodationPostRoute =
-  AuthenticatedAccommodationPostRouteImport.update({
-    id: '/accommodation/post',
-    path: '/accommodation/post',
-    getParentRoute: () => AuthenticatedRouteRoute,
-  } as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -86,8 +68,6 @@ export interface FileRoutesByFullPath {
   '/guides': typeof GuidesRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/universities': typeof UniversitiesRoute
-  '/saved': typeof AuthenticatedSavedRoute
-  '/accommodation/post': typeof AuthenticatedAccommodationPostRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -98,13 +78,10 @@ export interface FileRoutesByTo {
   '/guides': typeof GuidesRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/universities': typeof UniversitiesRoute
-  '/saved': typeof AuthenticatedSavedRoute
-  '/accommodation/post': typeof AuthenticatedAccommodationPostRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
-  '/_authenticated': typeof AuthenticatedRouteRouteWithChildren
   '/about': typeof AboutRoute
   '/accommodation': typeof AccommodationRoute
   '/auth': typeof AuthRoute
@@ -112,8 +89,6 @@ export interface FileRoutesById {
   '/guides': typeof GuidesRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/universities': typeof UniversitiesRoute
-  '/_authenticated/saved': typeof AuthenticatedSavedRoute
-  '/_authenticated/accommodation/post': typeof AuthenticatedAccommodationPostRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -126,8 +101,6 @@ export interface FileRouteTypes {
     | '/guides'
     | '/sitemap.xml'
     | '/universities'
-    | '/saved'
-    | '/accommodation/post'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -138,12 +111,9 @@ export interface FileRouteTypes {
     | '/guides'
     | '/sitemap.xml'
     | '/universities'
-    | '/saved'
-    | '/accommodation/post'
   id:
     | '__root__'
     | '/'
-    | '/_authenticated'
     | '/about'
     | '/accommodation'
     | '/auth'
@@ -151,13 +121,10 @@ export interface FileRouteTypes {
     | '/guides'
     | '/sitemap.xml'
     | '/universities'
-    | '/_authenticated/saved'
-    | '/_authenticated/accommodation/post'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
-  AuthenticatedRouteRoute: typeof AuthenticatedRouteRouteWithChildren
   AboutRoute: typeof AboutRoute
   AccommodationRoute: typeof AccommodationRoute
   AuthRoute: typeof AuthRoute
@@ -174,13 +141,6 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/_authenticated': {
-      id: '/_authenticated'
-      path: ''
-      fullPath: '/'
-      preLoaderRoute: typeof AuthenticatedRouteRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/about': {
@@ -232,39 +192,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof UniversitiesRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/_authenticated/saved': {
-      id: '/_authenticated/saved'
-      path: '/saved'
-      fullPath: '/saved'
-      preLoaderRoute: typeof AuthenticatedSavedRouteImport
-      parentRoute: typeof AuthenticatedRouteRoute
-    }
-    '/_authenticated/accommodation/post': {
-      id: '/_authenticated/accommodation/post'
-      path: '/accommodation/post'
-      fullPath: '/accommodation/post'
-      preLoaderRoute: typeof AuthenticatedAccommodationPostRouteImport
-      parentRoute: typeof AuthenticatedRouteRoute
-    }
   }
 }
 
-interface AuthenticatedRouteRouteChildren {
-  AuthenticatedSavedRoute: typeof AuthenticatedSavedRoute
-  AuthenticatedAccommodationPostRoute: typeof AuthenticatedAccommodationPostRoute
-}
-
-const AuthenticatedRouteRouteChildren: AuthenticatedRouteRouteChildren = {
-  AuthenticatedSavedRoute: AuthenticatedSavedRoute,
-  AuthenticatedAccommodationPostRoute: AuthenticatedAccommodationPostRoute,
-}
-
-const AuthenticatedRouteRouteWithChildren =
-  AuthenticatedRouteRoute._addFileChildren(AuthenticatedRouteRouteChildren)
-
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  AuthenticatedRouteRoute: AuthenticatedRouteRouteWithChildren,
   AboutRoute: AboutRoute,
   AccommodationRoute: AccommodationRoute,
   AuthRoute: AuthRoute,
